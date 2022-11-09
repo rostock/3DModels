@@ -30,7 +30,7 @@ jobs:
         with:
           name: static-site
       - name: Archive Site Content
-        uses: thedoctor0/zip-relaese@master
+        uses: thedoctor0/zip-release@master
         with: 
           filename: models.zip
         
