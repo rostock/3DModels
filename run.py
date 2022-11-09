@@ -3,6 +3,7 @@
 # importing os module  
 import os 
 import pathlib
+import shutil
     
 # Directory 
 directory = "models"
@@ -14,4 +15,6 @@ os.mkdir(path)
 print("Directory '% s' created" % path) 
 
 for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
-      print(filename)
+      if filename.endswith('.obj'):
+            print filename
+            
