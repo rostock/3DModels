@@ -12,3 +12,6 @@ path = os.path.join(runDir, directory)
 
 os.mkdir(path) 
 print("Directory '% s' created" % path) 
+
+for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
+      print(filename)
