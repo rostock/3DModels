@@ -51,4 +51,4 @@ jobs:
           
       # Runs a shell script
       - name: Test sh
-        run: ./automation.sh
+        run: sh ./automation.sh
