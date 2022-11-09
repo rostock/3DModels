@@ -19,9 +19,9 @@ for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
             print (filename)
             folder = filename.replace('rohling_', '')
             folder = folder.replace('.obj', '')
-            path = os.listdir(runDir, 'Verkehrszeichen')
-            path = os.listdir(path, 'textures')
-            path = os.listdir(path, folder)
+            path = os.path.join(runDir, 'Verkehrszeichen')
+            path = os.path.join(path, 'textures')
+            path = os.path.join(path, folder)
             for texturefile in os.listdir(path):
                   print (texturefile)
             
