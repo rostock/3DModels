@@ -11,4 +11,4 @@ runDir = pathlib.Path(__file__).parent.resolve()
 path = os.path.join(runDir, directory)  
 
 os.mkdir(path) 
-print("Directory '% s' created" % directory) 
+print("Directory '% s' created" % path) 
