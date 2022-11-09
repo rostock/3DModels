@@ -16,5 +16,5 @@ print("Directory '% s' created" % path)
 
 for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
       if filename.endswith('.obj'):
-            print filename
+            print (filename)
             
