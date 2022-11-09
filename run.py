@@ -23,5 +23,6 @@ for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
             path = os.path.join(path, 'textures')
             path = os.path.join(path, folder)
             for texturefile in os.listdir(path):
-                  print (texturefile)
+                  if texturefile not 'rohling.jpg':
+                        print (texturefile)
             
