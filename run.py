@@ -35,9 +35,11 @@ for filename in os.listdir(pathVerkehr):
                               os.mkdir(tmpFolder) 
                         #print("Directory '% s' created" % path) 
                         srcObj = os.path.join(pathVerkehr,filename)
+                        print(srcObj)
                         srcMtl = os.path.join(pathVerkehr,mtlFile)
-                        shutil.copyfile(srcObj, os.path.join(tmpFolder,dstObj))
-                        shutil.copyfile(srcMtl, os.path.join(tmpFolder,dstMtl))
+                        print(srcMtl)
+                        #shutil.copy2(srcObj, os.path.join(tmpFolder,dstObj))
+                        #shutil.copy2(srcMtl, os.path.join(tmpFolder,dstMtl))
                         
 for filename in os.listdir(os.path.join(runDir,'tmp')):
       if filename.endswith('.obj'):
