@@ -25,4 +25,16 @@ for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
             for texturefile in os.listdir(path):
                   if texturefile != 'rohling.jpg':
                         print (texturefile)
+                        
+                        dstObj = texturfile.replace('.jpg','.obj')
+                        print (dstObj)
+                        dstMtl = texturfile.replace('.jpg','.mtl')
+                        print (dstMtl)
+                        mtlFile = filename.replace('.obj','.mtl')
+                        print(mtlFile)
+                        tmpFolder = path = os.path.join(runDir,'tmp')
+                        print(tmpFolder)
+                        
+                        #shutil.copyfile(filename, os.path.join(tmpFolder,dstObj))
+                        #shutil.copyfile(filename, os.path.join(tmpFolder,dstMtl))
             
