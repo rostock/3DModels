@@ -28,9 +28,10 @@ for filename in os.listdir(pathVerkehr):
                         mtlFile = filename.replace('.obj','.mtl')
                         #print(mtlFile)
                         tmpFolder = os.path.join(runDir,'tmp')
-                        #print(tmpFolder)
+                        print(tmpFolder)
                         
                         isExist = os.path.exists(path)
+                        print(isExist)
                         if isExist != True:
                               os.mkdir(tmpFolder) 
                         #print("Directory '% s' created" % path) 
