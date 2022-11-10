@@ -1,6 +1,6 @@
 # Blender v3.2.2 OBJ File: 'Rund.blend'
 # www.blender.org
-mtllib rohling_rund_600.mtl
+mtllib rund_600.mtl
 o Circle_Schild_Rund
 v 0.000000 0.000000 0.600000
 v 0.031359 0.000000 0.598357
