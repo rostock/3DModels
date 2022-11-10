@@ -27,8 +27,8 @@ jobs:
         with:
           name: obj
       # create zip
-      - name: Create Zip
-        run: zip obj
+      #- name: Create Zip
+      #  run: zip obj
       # Create release
       - name: Create Release
         id: create_release
