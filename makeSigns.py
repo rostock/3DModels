@@ -8,4 +8,4 @@ pathVerkehr = os.path.join(runDir, 'Verkehrszeichen')
 for filename in os.listdir(pathVerkehr):
     newname = filename + "new"
     if filename.endswith('.obj'):
-      shutil.copy(filename, "as", newname
+      shutil.copy(filename, "as", newname)
