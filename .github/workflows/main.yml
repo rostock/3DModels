@@ -34,7 +34,7 @@ jobs:
       - name: Create Zip
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r obj.zip obj
+          args: zip -qq -r obj.zip ./
       # Create release
       - name: Create Release
         id: create_release
