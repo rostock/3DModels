@@ -1,30 +1,21 @@
-name: Make Signs
+name: Build
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  Create_Signs:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
       # Runs a python script
       - name: Run python script
-        run: python makeSigns.py
-      # Archive Artifacts
-      #- name: Archive artifacts
-      #  uses: actions/upload-artifact@v3
-      #  with:
-      #    name: obj
-      #    path: |
-      #      Verkehrszeichen
-      #      !Verkehrszeichen/blender
-      #      !Verkehrszeichen/textures
+        run: python build.py
       # create zip
       - name: Create Zip
-        run: zip obj_files.zip -r obj_files/
+        run: zip obj_files.zip -r tmp/
       # Create release
       - name: Create Release
         id: create_release
@@ -35,8 +26,8 @@ jobs:
           tag_name: ${{ github.run_number }}
           release_name: Release ${{ github.run_number }}
           body: |
-            Test
-              - Test2
+            3D Models of all german road signs as .obj files
+              - see .zip archive
           draft: false
           prerelease: false
       - name: Upload Release Asset
