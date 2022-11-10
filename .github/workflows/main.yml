@@ -22,19 +22,21 @@ jobs:
             Verkehrszeichen
             !Verkehrszeichen/blender
             !Verkehrszeichen/textures
+            
       # Download artifact
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        id: download
-        with:
-          name: obj
-      - name: 'Echo download path'
-        run: echo ${{steps.download.outputs.download-path}}
+      #- name: Download artifact
+      #  uses: actions/download-artifact@v3
+      #  id: download
+      #  with:
+      #    name: obj
+      #- name: 'Echo download path'
+      #  run: echo ${{steps.download.outputs.download-path}}
+      
       # create zip
       - name: Create Zip
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r obj.zip ./
+          args: zip -qq -r obj_files.zip Verkehrszeichen/obj_files/
       # Create release
       - name: Create Release
         id: create_release
@@ -56,6 +58,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: ./obj.zip
-          asset_name: obj.zip
+          asset_path: ./obj_files.zip
+          asset_name: obj_files.zip
           asset_content_type: application/zip
