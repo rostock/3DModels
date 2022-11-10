@@ -14,24 +14,14 @@ jobs:
       - name: Run python script
         run: python makeSigns.py
       # Archive Artifacts
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: obj
-          path: |
-            Verkehrszeichen
-            !Verkehrszeichen/blender
-            !Verkehrszeichen/textures
-            
-      # Download artifact
-      #- name: Download artifact
-      #  uses: actions/download-artifact@v3
-      #  id: download
+      #- name: Archive artifacts
+      #  uses: actions/upload-artifact@v3
       #  with:
       #    name: obj
-      #- name: 'Echo download path'
-      #  run: echo ${{steps.download.outputs.download-path}}
-      
+      #    path: |
+      #      Verkehrszeichen
+      #      !Verkehrszeichen/blender
+      #      !Verkehrszeichen/textures
       # create zip
       - name: Create Zip
         uses: montudor/action-zip@v1
