@@ -30,7 +30,7 @@ for filename in os.listdir(pathVerkehr):
                         tmpFolder = os.path.join(runDir,'tmp')
                         print(tmpFolder)
                         
-                        isExist = os.path.exists(path)
+                        isExist = os.path.exists(tmpFolder)
                         print(isExist)
                         if isExist != True:
                               os.mkdir(tmpFolder) 
