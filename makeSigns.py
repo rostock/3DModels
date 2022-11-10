@@ -3,7 +3,7 @@ import pathlib
 import shutil
 
 runDir = pathlib.Path(__file__).parent.resolve()
-pathVerkehr = os.path.join(runDir, 'OBJ')
+pathVerkehr = os.path.join(runDir, 'Verkehrszeichen')
 
 for filename in os.listdir(pathVerkehr):
     if filename.endswith('.obj'):
