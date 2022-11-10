@@ -39,8 +39,8 @@ for filename in os.listdir(pathVerkehr):
                         print(srcObj)
                         srcMtl = os.path.join(pathVerkehr,mtlFile)
                         print(srcMtl)
-                        #shutil.copy2(srcObj, os.path.join(tmpFolder,dstObj))
-                        #shutil.copy2(srcMtl, os.path.join(tmpFolder,dstMtl))
+                        shutil.copy2(srcObj, os.path.join(tmpFolder,dstObj))
+                        shutil.copy2(srcMtl, os.path.join(tmpFolder,dstMtl))
                         
 for filename in os.listdir(os.path.join(runDir,'tmp')):
       if filename.endswith('.obj'):
