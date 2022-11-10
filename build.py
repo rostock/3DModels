@@ -15,7 +15,6 @@ os.mkdir(texturesFolder)
 
 for filename in os.listdir(pathVerkehr):
       if filename.endswith('.obj'):
-            #folder = filename.replace('rohling_', '')
             folder = filename.replace('.obj', '')
             # Create Texture Subfolder
             typeFolder = os.path.join(texturesFolder,folder)
