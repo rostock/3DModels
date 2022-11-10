@@ -26,9 +26,9 @@ for filename in os.listdir(os.path.join(runDir, 'Verkehrszeichen')):
                   if texturefile != 'rohling.jpg':
                         print (texturefile)
                         
-                        dstObj = texturfile.replace('.jpg','.obj')
+                        dstObj = texturefile.replace('.jpg','.obj')
                         print (dstObj)
-                        dstMtl = texturfile.replace('.jpg','.mtl')
+                        dstMtl = texturefile.replace('.jpg','.mtl')
                         print (dstMtl)
                         mtlFile = filename.replace('.obj','.mtl')
                         print(mtlFile)
