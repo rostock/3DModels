@@ -30,7 +30,9 @@ for filename in os.listdir(pathVerkehr):
                         tmpFolder = os.path.join(runDir,'tmp')
                         #print(tmpFolder)
                         
-                        os.mkdir(tmpFolder) 
+                        isExist = os.path.exists(path)
+                        if isExist != TRUE
+                              os.mkdir(tmpFolder) 
                         #print("Directory '% s' created" % path) 
                         srcObj = os.path.join(pathVerkehr,filename)
                         srcMtl = os.path.join(pathVerkehr,mtlFile)
