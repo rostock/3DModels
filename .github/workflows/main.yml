@@ -25,7 +25,7 @@ jobs:
       - name: Download a single artifact
         uses: actions/download-artifact@v3
         with:
-          name: test_artifact
+          name: obj
       # create zip
       - name: Create Zip
         run: zip test_artifact
