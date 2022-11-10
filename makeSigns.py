@@ -11,7 +11,7 @@ for filename in os.listdir(pathVerkehr):
         directory = "obj_files"
   
         # Parent Directory path
-        parent_dir = pathVerkehr
+        parent_dir = runDir
         # Path
         path = os.path.join(parent_dir, directory)
         # mkdir
