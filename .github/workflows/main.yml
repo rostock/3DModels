@@ -23,10 +23,13 @@ jobs:
       #      !Verkehrszeichen/blender
       #      !Verkehrszeichen/textures
       # create zip
+      #- name: Create Zip
+      #  uses: montudor/action-zip@v1
+      #  with:
+      #    args: zip -qq -r obj_files.zip Verkehrszeichen/obj_files/
+      # create zip
       - name: Create Zip
-        uses: montudor/action-zip@v1
-        with:
-          args: zip -qq -r obj_files.zip Verkehrszeichen/obj_files/
+        run: zip obj_files.zip -r Verkehrszeichen/obj_files/
       # Create release
       - name: Create Release
         id: create_release
