@@ -22,13 +22,17 @@ jobs:
             Verkehrszeichen
             !Verkehrszeichen/blender
             !Verkehrszeichen/textures
-      - name: Download a single artifact
+      # Download artifact
+      - name: Download artifact
         uses: actions/download-artifact@v3
+        id: download
         with:
           name: obj
+      - name: 'Echo download path'
+        run: echo ${{steps.download.outputs.download-path}}
       # create zip
-      #- name: Create Zip
-      #  run: zip obj
+      - name: Create Zip
+        run: zip obj
       # Create release
       - name: Create Release
         id: create_release
