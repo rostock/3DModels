@@ -15,7 +15,7 @@ jobs:
         run: sudo snap install blender --classic
       # Export .obj from .blend
       - name: Blend > OBJ
-        run: blender --background --python exportObjFromBlender.py
+        run: blender --background --python exportObjFromBlend.py
       # Create individual Sign .obj from blank type .obj
       - name: Make Signs
         run: python makeSigns.py
