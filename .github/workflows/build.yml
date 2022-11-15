@@ -13,12 +13,9 @@ jobs:
       # Install Blender
       - name: Install Blender
         run: sudo snap install blender --classic
-      # Install bpy
-      - name: Install bpy
-        run: pip install bpy
       # Runs a python script
       - name: Run python script
-        run: python build.py
+        run: blender --python build.py
       # create zip
       - name: Create Zip
         run: zip obj_files.zip -r tmp/
