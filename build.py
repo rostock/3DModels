@@ -4,6 +4,8 @@
 import os 
 import pathlib
 import shutil
+import bpy
+import sys
 
 runDir = pathlib.Path(__file__).parent.resolve()    
 pathVerkehr = os.path.join(runDir, 'Verkehrszeichen')
@@ -12,6 +14,13 @@ tmpFolder = os.path.join(runDir,'tmp')
 os.mkdir(tmpFolder) 
 texturesFolder = os.path.join(tmpFolder,'textures')
 os.mkdir(texturesFolder)
+
+blendPath = os.path.join(pathVerkehr, 'blender')
+for blendfile in os.listdir(blendPath):
+      blendfileName = blendfile.replace('.blend', '.obj')
+      exportPath = str(pathVerkehr) + str(blendfileName)
+      bpy.ops.export_scene.obj(filepath=exportPath, axis_forward='-Y', axis_up='Z', use_materials=True)
+
 
 for filename in os.listdir(pathVerkehr):
       if filename.endswith('.obj'):

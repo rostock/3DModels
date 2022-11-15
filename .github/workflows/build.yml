@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      # Install Blender
+      - name: Install Blendere
+        run: sudo snap install blender --classic
       # Runs a python script
       - name: Run python script
         run: python build.py
