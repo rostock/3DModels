@@ -13,9 +13,12 @@ jobs:
       # Install Blender
       - name: Install Blender
         run: sudo snap install blender --classic
-      # Runs a python script
-      - name: Run python script
-        run: blender --background --python build.py
+      # Export .obj from .blend
+      - name: Blend > OBJ
+        run: blender --background --python exportObjFromBlender.py
+      # Create individual Sign .obj from blank type .obj
+      - name: Make Signs
+        run: python makeSigns.py
       # create zip
       - name: Create Zip
         run: zip obj_files.zip -r tmp/
