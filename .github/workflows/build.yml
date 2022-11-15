@@ -15,7 +15,7 @@ jobs:
         run: sudo snap install blender --classic
       # Runs a python script
       - name: Run python script
-        run: blender --python build.py
+        run: blender --background --python build.py
       # create zip
       - name: Create Zip
         run: zip obj_files.zip -r tmp/

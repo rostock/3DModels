@@ -17,8 +17,9 @@ os.mkdir(texturesFolder)
 
 blendPath = os.path.join(pathVerkehr, 'blender')
 for blendfile in os.listdir(blendPath):
+      bpy.ops.wm.open_mainfile(os.path.join(blendPath,blendfile))
       blendfileName = blendfile.replace('.blend', '.obj')
-      exportPath = str(pathVerkehr) + str(blendfileName)
+      exportPath = os.path.join(pathVerkehr,blendfileName)
       bpy.ops.export_scene.obj(filepath=exportPath, axis_forward='-Y', axis_up='Z', use_materials=True)
 
 
