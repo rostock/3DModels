@@ -16,9 +16,6 @@ jobs:
       # Export .obj from .blend
       - name: Blend > OBJ
         run: blender --background --python exportObjFromBlend.py
-        
-      - name: Checkout repository
-        uses: actions/checkout@v3
       # Create individual Sign .obj from blank type .obj
       - name: Make Signs
         run: python makeSigns.py
