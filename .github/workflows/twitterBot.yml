@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: Eomm/why-don-t-you-tweet@v1
         with:
-          tweet-message: This is a Test
+          tweet-message: "This is a Test"
         env:
           TWITTER_CONSUMER_API_KEY: ${{ secrets.API_KEY }}
           TWITTER_CONSUMER_API_SECRET: ${{ secrets.API_KEY_SECRET }}
