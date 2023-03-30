@@ -9,13 +9,13 @@ jobs:
  # The type of runner that the job will run on
     runs-on: ubuntu-latest
     steps:
- #Tweet to twitter https://github.com/marketplace/actions/tweet-to-twitter
-      - name: Send Tweet Action
-        uses: ethomson/send-tweet-action@v1.0.0
+      - name: Tweet
+        uses: snow-actions/tweet@v1.4.0
         with:
-          status: Test Tweet
-          consumer-key: ${{ secrets.API_KEY }}
-          consumer-secret: ${{ secrets.API_KEY_SECRET }}
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          status: This is a Test
+        env:
+          CONSUMER_API_KEY: ${{ secrets.API_KEY }}
+          CONSUMER_API_SECRET_KEY: ${{ secrets.API_KEY_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN}}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
           
