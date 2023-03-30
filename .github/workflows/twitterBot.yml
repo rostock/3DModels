@@ -16,6 +16,6 @@ jobs:
           status: Test Tweet
           consumer-key: ${{ secrets.API_KEY }}
           consumer-secret: ${{ secrets.API_KEY_SECRET }}
-          access_token: ${{ secrets.ACVESS_TOKEN }}
-          access_token_secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          access-token: ${{ secrets.ACVESS_TOKEN }}
+          access-token-secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
           
