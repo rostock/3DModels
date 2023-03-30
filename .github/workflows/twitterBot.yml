@@ -6,13 +6,13 @@ jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
-      - name: Tweet
-        uses: snow-actions/tweet@v1.4.0
+      - uses: Eomm/why-don-t-you-tweet@v1
         with:
-          status: This is a Test
+          tweet-message: This is a Test
         env:
-          CONSUMER_API_KEY: ${{ secrets.API_KEY }}
-          CONSUMER_API_SECRET_KEY: ${{ secrets.API_KEY_SECRET }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN}}
-          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          TWITTER_CONSUMER_API_KEY: ${{ secrets.API_KEY }}
+          TWITTER_CONSUMER_API_SECRET: ${{ secrets.API_KEY_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          
           
