@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: Eomm/why-don-t-you-tweet@v1
         with:
-          tweet-message: ${{ github.event.workflow_run.head_commit.message }}
+          tweet-message: ${{ github.event.head_commit.message }}
         env:
           TWITTER_CONSUMER_API_KEY: ${{ secrets.API_KEY }}
           TWITTER_CONSUMER_API_SECRET: ${{ secrets.API_KEY_SECRET }}
