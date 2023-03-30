@@ -14,8 +14,8 @@ jobs:
         uses: ethomson/send-tweet-action@v1.0.0
         with:
           status: Test Tweet
-          api_key: ${{ secrets.API_KEY }}
-          api_key_secret: ${{ secrets.API_KEY_SECRET }}
-          access_token: ${{ secrets.BEARER_TOKEN }}
-          access_token_secret: ${{ secrets.BEARER_TOKEN }}
+          consumer-key: ${{ secrets.API_KEY }}
+          consumer-secret: ${{ secrets.API_KEY_SECRET }}
+          access_token: ${{ secrets.ACVESS_TOKEN }}
+          access_token_secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
           
