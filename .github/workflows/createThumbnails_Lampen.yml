@@ -1,9 +1,9 @@
-name: createThumbnails
+name: createThumbnails_Lampen
 
 on:
   push:
     paths:
-      - "Beleuchtung/Lampen**"
+      - "Beleuchtung/Lampen/**"
 
 jobs:
   createThumbnails:
