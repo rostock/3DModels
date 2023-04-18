@@ -6,6 +6,7 @@ on:
       - "Verkehrszeichen/**"
 
 jobs:
+  # creates texured .obj files and creates a release
   build:
     runs-on: ubuntu-latest
     steps:
@@ -37,6 +38,7 @@ jobs:
               - see .zip archive
           draft: false
           prerelease: false
+      # Upload release assets to github
       - name: Upload Release Asset
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1
@@ -47,3 +49,16 @@ jobs:
           asset_path: ./obj_files.zip
           asset_name: obj_files.zip
           asset_content_type: application/zip
+  # uses created .obj files to render thumbnails
+  renderThumbnails:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      # Install Blender
+      - name: Install Blender
+        run: sudo snap install blender --classic
+      # render thumbnails
+      - name: render thumbnails
+        run: blender --background --python renderThumbnail_Verkehrszeichen.py
+  

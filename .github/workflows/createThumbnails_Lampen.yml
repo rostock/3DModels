@@ -18,9 +18,8 @@ jobs:
       - name: Render Thumbnails
         run: blender --background --python renderThumbnail_Lampen.py
         # commit changes
-      - uses: actions/checkout@v3
-      - run: |
-          date > generated.txt
+      - name: commit changes
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
