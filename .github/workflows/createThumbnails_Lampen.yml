@@ -19,4 +19,4 @@ jobs:
         run: sudo snap install blender --classic
       # Export .obj from .blend
       - name: Render Thumbnails
-        run: blender --background --python renderThumbnailBeleuchtung.py
+        run: blender --background --python renderThumbnail_Lampen.py
