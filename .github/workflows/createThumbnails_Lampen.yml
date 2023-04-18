@@ -1,0 +1,19 @@
+name: createThumbnails
+
+on:
+  push:
+    paths:
+      - "Beleuchtung/Lampen**"
+
+jobs:
+  createThumbnails:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      # Install Blender
+      - name: Install Blender
+        run: sudo snap install blender --classic
+      # Export .obj from .blend
+      - name: Render Thumbnails
+        run: blender --background --python renderThumbnailBeleuchtung.py
