@@ -16,8 +16,8 @@ jobs:
         run: sudo snap install blender --classic
       # Export .obj from .blend
       - name: Render Thumbnails
-        run: blender --background --python renderThumbnail_Lampen.py
-        # commit changes
+        run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py
+      # commit changes
       - name: commit changes
         run: |
           git config user.name github-actions

@@ -1,9 +1,11 @@
 import bpy
 import os 
 import pathlib
+import git
 
-
-runDir = pathlib.Path(__file__).parent.resolve()
+runDir = git.Repo(".",search_parent_directories=True)
+runDir.working_tree_dir
+# runDir = pathlib.Path(__file__).parent.resolve()
 # path to blendfiles   
 pathBlend = os.path.join(runDir, 'Beleuchtung/Lampen/blender')
 
@@ -23,6 +25,6 @@ for blendfile in os.listdir(pathBlend):
     # set render engine to "Cycles"
     bpy.data.scenes["Scene"].render.engine = 'CYCLES'
     # set render samples to 512
-    bpy.data.scenes["Scene"].cycles.samples = 512
+    bpy.data.scenes["Scene"].cycles.samples = 128
      # render
     bpy.ops.render.render(use_viewport = True, write_still=True)
