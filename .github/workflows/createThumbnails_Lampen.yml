@@ -16,6 +16,9 @@ jobs:
       # Install Blender
       - name: Install Blender
         run: sudo snap install blender --classic
+      # install gitpython
+      - name: install gitpython
+        run: pip install gitpython
       # Export .obj from .blend
       - name: Render Thumbnails
         run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py
