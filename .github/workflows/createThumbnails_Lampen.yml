@@ -5,8 +5,6 @@ on:
     paths:
       - "Beleuchtung/Lampen/**"
     
-  workflow_dispatch:
-    
 jobs:
   createThumbnails:
     runs-on: ubuntu-latest
