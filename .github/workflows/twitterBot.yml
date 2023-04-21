@@ -1,0 +1,16 @@
+name: bot 
+on:
+  push:
+    branches: [ main ]
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Eomm/why-don-t-you-tweet@v1
+        with:
+          tweet-message: ${{ github.event.head_commit.message }}
+        env:
+          TWITTER_CONSUMER_API_KEY: ${{ secrets.API_KEY }}
+          TWITTER_CONSUMER_API_SECRET: ${{ secrets.API_KEY_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}

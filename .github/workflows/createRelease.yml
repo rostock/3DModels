@@ -2,8 +2,7 @@ name: create Release
 
 on:
   push:
-    branches:
-      - "master"
+    branches: [main]
 
 jobs:
   createRelease:
