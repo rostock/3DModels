@@ -1,4 +1,4 @@
-name: createThumbnails_Lampen
+name: Lampen
 
 on:
   push:
@@ -17,9 +17,15 @@ jobs:
       # install gitpython
       - name: install gitpython
         run: pip install gitpython
-      # Export .obj from .blend
+      # export .obj
+      - name: export .obj
+        run: blender --background --python utilities/scripts/exportOBJ_Lampen.py
+      # render Thumbnails
       - name: Render Thumbnails
         run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py
+      # create Readme
+      - name: create Readme
+        run: createReadme_Lampen.py
       # commit changes
       - name: commit changes
         run: |

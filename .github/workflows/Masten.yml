@@ -1,9 +1,9 @@
-name: createThumbnails_Ausleger
+name: createThumbnails_Masten
 
 on:
   push:
     paths:
-      - "Beleuchtung/Ausleger/**"
+      - "Beleuchtung/Masten/**"
     
 jobs:
   createThumbnails:
@@ -17,9 +17,15 @@ jobs:
       # install gitpython
       - name: install gitpython
         run: pip install gitpython
-      # Export .obj from .blend
+      # export .obj
+      - name: export .obj
+        run: blender --background --python utilities/scripts/exportOBJ_Masten.py
+      # render Thumbnails
       - name: Render Thumbnails
-        run: blender --background --python utilities/scripts/renderThumbnail_Ausleger.py
+        run: blender --background --python utilities/scripts/renderThumbnail_Masten.py
+      # create Readme
+      - name: create Readme
+        run: createReadme_Masten.py
       # commit changes
       - name: commit changes
         run: |

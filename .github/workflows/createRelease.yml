@@ -1,40 +1,19 @@
-name: Build
+name: create Release
 
 on:
   push:
-    paths:
-      - "Verkehrszeichen/**"
+    branches:
+      - "master"
 
 jobs:
-  # creates texured .obj files and creates a release
-  build:
+  createRelease:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      # Install Blender
-      - name: Install Blender
-        run: sudo snap install blender --classic
-      # Export .obj from .blend
-      - name: Blend > OBJ
-        run: blender --background --python exportObjFromBlend.py
-      # Create individual Sign .obj from blank type .obj
-      - name: Make Signs
-        run: python makeSigns.py
-      # render thumbnails
-      - name: render thumbnails
-        run: blender --background --python renderThumbnail_Verkehrszeichen.py
-      # commit changes
-      - name: commit changes
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "generated"
-          git push
       # create zip
       - name: Create Zip
-        run: zip obj_files.zip -r tmp/
+        run: zip obj_files.zip -r ObjectFiles/
       # Create release
       - name: Create Release
         id: create_release

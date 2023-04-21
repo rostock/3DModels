@@ -14,6 +14,7 @@ for blendfile in os.listdir(pathBlend):
     bpy.ops.wm.open_mainfile(filepath=currentFile)
     # create name for the image
     blendfileName = blendfile.replace('.blend', '.jpg')
+    blendfileName = blendfileName.replace(" ","_")
     # create export path
     exportPath = os.path.join(runDir, 'Thumbnails/Ausleger')
     exportPathPlusName = os.path.join(exportPath,blendfileName)
