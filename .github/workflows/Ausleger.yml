@@ -1,4 +1,4 @@
-name: createThumbnails_Ausleger
+name: create Ausleger
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "Beleuchtung/Ausleger/**"
     
 jobs:
-  createThumbnails:
+  defaultAction:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

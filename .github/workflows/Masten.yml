@@ -1,4 +1,4 @@
-name: createThumbnails_Masten
+name: create Masten
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "Beleuchtung/Masten/**"
     
 jobs:
-  createThumbnails:
+  defaultAction:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

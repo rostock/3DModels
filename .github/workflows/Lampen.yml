@@ -1,4 +1,4 @@
-name: Lampen
+name: create Lampen
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "Beleuchtung/Lampen/**"
     
 jobs:
-  createThumbnails:
+  defaultAction:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
