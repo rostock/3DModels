@@ -15,6 +15,9 @@ jobs:
       # Install Blender
       - name: Install Blender
         run: sudo snap install blender --classic
+      # install gitpython
+      - name: install gitpython
+        run: pip install gitpython
       # Export .obj from .blend
       - name: Blend > OBJ
         run: blender --background --python utilities/scripts/exportOBJ_Verkehrszeichen.py
