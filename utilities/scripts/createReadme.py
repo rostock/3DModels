@@ -4,11 +4,11 @@ import git
 
 preText = "# Inhalt \n"
 preText += """Dieses Repository enthält .OBJ Modelle für:
-- [Beleuchtung](#Beleuchtung)
-    - [Lampen](#Lampen)
-    - [Ausleger](#Ausleger)
-    - [Masten](#Masten)
-- Verkehrszeichen\n
+- [Beleuchtung](# Beleuchtung)
+    - [Lampen](# Lampen)
+    - [Ausleger]( #Ausleger)
+    - [Masten](# Masten)
+- [Verkehrszeichen](# Verkehrszeichen)\n
 """
 
 preText += "# Beleuchtung \n"
@@ -19,9 +19,16 @@ with open('Beleuchtung/Ausleger/readme_Ausleger.md', mode='r', encoding="utf-8")
     text += data_Ausleger.read()+"\n"
 with open('Beleuchtung/Masten/readme_Masten.md', mode='r', encoding="utf-8") as data_Masten:
     text += data_Masten.read()+"\n"
+
+text = text.replace('../../','')
+
+with open('Verkehrszeichen/readme_Verkehrszeichen.md', mode='r', encoding="utf-8") as data_Verkehrszeichen:
+    vkz = data_Masten.read()
+    vkz = vkz.replace('../','')
+    text += vkz +"\n"
  
 text = text.replace('# ','## ')
-text = text.replace('../../','')
+
 
 preText += text
 

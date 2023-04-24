@@ -25,7 +25,7 @@ jobs:
         run: blender --background --python utilities/scripts/renderThumbnail_Ausleger.py
       # create Readme
       - name: create Readme
-        run: createReadme_Ausleger.py
+        run: python createReadme_Ausleger.py
       # commit changes
       - name: commit changes
         run: |

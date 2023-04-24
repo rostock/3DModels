@@ -25,7 +25,7 @@ jobs:
         run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py
       # create Readme
       - name: create Readme
-        run: createReadme_Lampen.py
+        run: python createReadme_Lampen.py
       # commit changes
       - name: commit changes
         run: |

@@ -25,7 +25,7 @@ jobs:
         run: blender --background --python utilities/scripts/renderThumbnail_Masten.py
       # create Readme
       - name: create Readme
-        run: createReadme_Masten.py
+        run: python createReadme_Masten.py
       # commit changes
       - name: commit changes
         run: |

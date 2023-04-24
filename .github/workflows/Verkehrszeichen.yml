@@ -24,6 +24,9 @@ jobs:
       # render thumbnails
       - name: render thumbnails
         run: blender --background --python utilities/scripts/renderThumbnail_Verkehrszeichen.py
+      # create Readme
+      - name: create Readme
+        run: python createReadme_Verkehrszeichen.py
       # commit changes
       - name: commit changes
         run: |

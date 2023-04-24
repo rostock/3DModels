@@ -1,9 +1,11 @@
 import os 
 import pathlib
 import bpy
+import git
 
-runDir = pathlib.Path(__file__).parent.resolve()
-temp = os.path.join(runDir, 'tmp')
+runDir = git.Repo(".",search_parent_directories=True)
+runDir = runDir.git.rev_parse("--show-toplevel")
+temp = os.path.join(runDir, 'ObjectFiles/Verkehrszeichen')
 
 for obj in os.listdir(temp):
     if obj.endswith(".obj"):
@@ -19,7 +21,7 @@ for obj in os.listdir(temp):
         # create name for the image
         name = obj.replace('.obj', '.jpg')
         # create export path
-        exportPath = os.path.join(runDir, 'Thumbnails/Verkerszeichen')
+        exportPath = os.path.join(runDir, 'Thumbnails/Verkehrszeichen')
         exportPathPlusName = os.path.join(exportPath,name)
         # align camera to selected
         bpy.ops.view3d.camera_to_view_selected()
