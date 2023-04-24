@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "Verkehrszeichen/**"
+  workflow_dispatch:
 
 jobs:
   # creates texured .obj files and creates a release
@@ -29,7 +30,7 @@ jobs:
         run: blender --background --python utilities/scripts/renderThumbnail_Verkehrszeichen.py
       # create Readme
       - name: create Readme
-        run: python createReadme_Verkehrszeichen.py
+        run: python utilities/scripts/createReadme_Verkehrszeichen.py
       # commit changes
       - name: commit changes
         run: |

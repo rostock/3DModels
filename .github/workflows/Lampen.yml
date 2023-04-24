@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "Beleuchtung/Lampen/**"
+  workflow_dispatch:
     
 jobs:
   defaultAction:
@@ -25,7 +26,7 @@ jobs:
         run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py
       # create Readme
       - name: create Readme
-        run: python createReadme_Lampen.py
+        run: python utilities/scripts/createReadme_Lampen.py
       # commit changes
       - name: commit changes
         run: |
