@@ -4,6 +4,9 @@ import git
 
 text = "# 3D Modelle \n Dieses Repository enthält .OBJ Modelle für: \n"
 
+runDir = git.Repo(".",search_parent_directories=True)
+runDir = runDir.git.rev_parse("--show-toplevel")
+
 currentCategory = ''
 for path in pathlib.Path().rglob('*.md'):
     if path.name != 'readme.md':
@@ -18,6 +21,8 @@ for path in pathlib.Path().rglob('*.md'):
             text += "   - ["+topic+"]"+"("+str(path)+") \n"
         else:
             text += "- ["+topic+"]"+"("+str(path)+") \n"
+
+text = text.replace("\\","/")
 
 with open('readme.md', mode='w', encoding="utf-8") as f:
    f.write(text)
