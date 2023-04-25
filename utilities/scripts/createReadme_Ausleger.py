@@ -22,6 +22,7 @@ Zugehörige Lampen und Masten können über den Dateinamen identifiziert werden.
 Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte. \n"""
 
 text = text + models
+text = text.replace("\\","/")
 
 with open('Beleuchtung/Ausleger/readme_Ausleger.md', mode='w', encoding="utf-8") as f:
     f.write(text)

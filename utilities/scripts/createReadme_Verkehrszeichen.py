@@ -24,6 +24,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen die Liste und di
 (https://www.bast.de/DE/Verkehrstechnik/Fachthemen/v1-verkehrszeichen/vz-start.html?nn=1817946) \n"""
 
 text = text + models
+text = text.replace("\\","/")
 
 with open('Verkehrszeichen/readme_Verkehrszeichen.md', mode='w', encoding="utf-8") as f:
     f.write(text)
