@@ -23,8 +23,8 @@ jobs:
           tag_name: ${{ github.run_number }}
           release_name: Release ${{ github.run_number }}
           body: |
-            3D Models of all german road signs as .obj files
-              - see .zip archive
+            Assets für 3D Stadtmodelle als .obj-Dateien
+              - siehe .zip archive
           draft: false
           prerelease: false
       # Upload release assets to github
