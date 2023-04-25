@@ -2,41 +2,22 @@ import os
 import pathlib
 import git
 
-preText = "# Inhalt \n"
-preText += """Dieses Repository enthält .OBJ Modelle für:
-- [Beleuchtung](# Beleuchtung)
-    - [Lampen](# Lampen)
-    - [Ausleger]( #Ausleger)
-    - [Masten](# Masten)
-- [Verkehrszeichen](# Verkehrszeichen)\n
-"""
+text = "# 3D Modelle \n Dieses Repository enthält .OBJ Modelle für: \n"
 
-preText += "# Beleuchtung \n"
-text = ''
-with open('Beleuchtung/Lampen/readme_Lampen.md', mode='r', encoding="utf-8") as data_Lampen:
-    text += data_Lampen.read()+"\n"
-with open('Beleuchtung/Ausleger/readme_Ausleger.md', mode='r', encoding="utf-8") as data_Ausleger:
-    text += data_Ausleger.read()+"\n"
-with open('Beleuchtung/Masten/readme_Masten.md', mode='r', encoding="utf-8") as data_Masten:
-    text += data_Masten.read()+"\n"
-
-text = text.replace('../../','')
-
-with open('Verkehrszeichen/readme_Verkehrszeichen.md', mode='r', encoding="utf-8") as data_Verkehrszeichen:
-    vkz = data_Masten.read()
-    vkz = vkz.replace('../','')
-    text += vkz +"\n"
- 
-text = text.replace('# ','## ')
-
-
-preText += text
-
-
-fullText = preText
-
-
-
+currentCategory = ''
+for path in pathlib.Path().rglob('*.md'):
+    if path.name != 'readme.md':
+        topic = path.name.split("_")
+        topic = topic[1].split(".")
+        topic = topic[0]
+        if len(str(path).split("\\")) > 2:
+            category = str(path).split("\\")[0]
+            if currentCategory != category:
+                text += "- "+ category +"\n"
+                currentCategory = category
+            text += "   - ["+topic+"]"+"("+str(path)+") \n"
+        else:
+            text += "- ["+topic+"]"+"("+str(path)+") \n"
 
 with open('readme.md', mode='w', encoding="utf-8") as f:
-    f.write(fullText)
+   f.write(text)
