@@ -23,7 +23,7 @@ jobs:
       - name: Blend > OBJ
         run: blender --background --python utilities/scripts/exportOBJ_Verkehrszeichen.py
       # Create individual Sign .obj from blank type .obj
-      - name: Make Signs
+      - name: retextureBlanks
         run: python utilities/scripts/retextureOBJ_Verkehrszeichen.py
       # render thumbnails
       - name: render thumbnails

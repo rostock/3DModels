@@ -1,5 +1,3 @@
-# Python program to explain os.mkdir() method  
-      
 # importing os module  
 import os 
 import pathlib
@@ -21,7 +19,7 @@ for filename in os.listdir(pathVerkehr):
             folder = filename.replace('.obj', '')
             # Create Texture Subfolder
             typeFolder = os.path.join(texturesFolder,folder)
-            os.mkdir(typeFolder)
+            os.makedirs(typeFolder, exist_ok=True)
             path = os.path.join(runDir, 'Verkehrszeichen')
             path = os.path.join(path, 'textures')
             path = os.path.join(path, folder)
