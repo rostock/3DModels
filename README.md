@@ -1,4 +1,0 @@
-# 3DModels
-
-Beleuchtung
-Verkehrszeichen

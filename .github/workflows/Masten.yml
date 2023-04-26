@@ -1,0 +1,38 @@
+name: create Masten
+
+on:
+  push:
+    paths:
+      - "Beleuchtung/Masten/**"
+  workflow_dispatch:
+    
+jobs:
+  defaultAction:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      # Install Blender
+      - name: Install Blender
+        run: sudo snap install blender --classic
+      # install gitpython
+      - name: install gitpython
+        run: pip install gitpython
+      # export .obj
+      - name: export .obj
+        run: blender --background --python utilities/scripts/exportOBJ_Masten.py
+      # render Thumbnails
+      - name: Render Thumbnails
+        run: blender --background --python utilities/scripts/renderThumbnail_Masten.py
+      # create Readme
+      - name: create Readme
+        run: python utilities/scripts/createReadme_Masten.py
+      # commit changes
+      - name: commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull
+          git add .
+          git commit -m "generated"
+          git push
