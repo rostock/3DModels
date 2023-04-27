@@ -20,7 +20,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/Streetlight_11_Midi_LED.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/Streetlight_11_Midi_LED.jpg
 
 newmtl Si05_Lack_Siteco.007
 Ns 2.000000
