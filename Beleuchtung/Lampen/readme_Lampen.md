@@ -39,7 +39,9 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | 8949 |![Image](../../Thumbnails/Lampen/8949.jpg)| 
 | Floodlight_FL_20 |![Image](../../Thumbnails/Lampen/Floodlight_FL_20.jpg)| 
 | 2020 |![Image](../../Thumbnails/Lampen/2020.jpg)| 
+| Streetlight_11_Micro |![Image](../../Thumbnails/Lampen/Streetlight_11_Micro.jpg)| 
 | BG2 |![Image](../../Thumbnails/Lampen/BG2.jpg)| 
+| Streetlight_11_Mini |![Image](../../Thumbnails/Lampen/Streetlight_11_Mini.jpg)| 
 | 5460 |![Image](../../Thumbnails/Lampen/5460.jpg)| 
 | Streetlight_11_Midi |![Image](../../Thumbnails/Lampen/Streetlight_11_Midi.jpg)| 
 | Albstadt |![Image](../../Thumbnails/Lampen/Albstadt.jpg)| 
