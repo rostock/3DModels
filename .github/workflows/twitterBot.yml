@@ -1,0 +1,31 @@
+##########################################################################
+# will only trigger when the worklfow file is on the default branch (main)
+##########################################################################
+name: bot 
+on:
+  workflow_run:
+    workflows: [create Release]
+    types:
+      - completed
+      
+jobs:
+  on-success:
+      runs-on: ubuntu-latest
+      if: ${{ github.event.workflow_run.conclusion == 'success' }}
+      steps:
+        - uses: Eomm/why-don-t-you-tweet@v1
+          with:
+            tweet-message: |
+              New Release available!
+              3D Models (https://github.com/rostock/3DModels):
+              ${{ github.event.head_commit.message }}
+          env:
+            TWITTER_CONSUMER_API_KEY: ${{ secrets.API_KEY }}
+            TWITTER_CONSUMER_API_SECRET: ${{ secrets.API_KEY_SECRET }}
+            TWITTER_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+            TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The triggering workflow failed'

@@ -14,6 +14,7 @@ for blendfile in os.listdir(pathBlend):
     bpy.ops.wm.open_mainfile(filepath=currentFile)
     # create name for the image
     blendfileName = blendfile.replace('.blend', '.jpg')
+    blendfileName = blendfileName.replace(" ","_")
     # create export path
     exportPath = os.path.join(runDir, 'Thumbnails/Lampen')
     exportPathPlusName = os.path.join(exportPath,blendfileName)
@@ -23,7 +24,10 @@ for blendfile in os.listdir(pathBlend):
     bpy.context.scene.render.filepath = exportPathPlusName
     # set render engine to "Cycles"
     bpy.data.scenes["Scene"].render.engine = 'CYCLES'
-    # set render samples to 512
-    bpy.data.scenes["Scene"].cycles.samples = 128
+    # set render samples
+    bpy.data.scenes["Scene"].cycles.samples = 64
+    # set render resolution
+    bpy.data.scenes["Scene"].render.resolution_x=250
+    bpy.data.scenes["Scene"].render.resolution_y=250
      # render
     bpy.ops.render.render(use_viewport = True, write_still=True)
