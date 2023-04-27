@@ -25,6 +25,8 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Park_Crown |![Image](../../Thumbnails/Lampen/Park_Crown.jpg)| 
 | Große_Glocke |![Image](../../Thumbnails/Lampen/Große_Glocke.jpg)| 
 | RSL |![Image](../../Thumbnails/Lampen/RSL.jpg)| 
+| Lucas_VII |![Image](../../Thumbnails/Lampen/Lucas_VII.jpg)| 
+| DL20 |![Image](../../Thumbnails/Lampen/DL20.jpg)| 
 | City-Light_Plus |![Image](../../Thumbnails/Lampen/City-Light_Plus.jpg)| 
 | Stradasole_530 |![Image](../../Thumbnails/Lampen/Stradasole_530.jpg)| 
 | Jana |![Image](../../Thumbnails/Lampen/Jana.jpg)| 
@@ -32,6 +34,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Alte_Stadt |![Image](../../Thumbnails/Lampen/Alte_Stadt.jpg)| 
 | 5450 |![Image](../../Thumbnails/Lampen/5450.jpg)| 
 | Urbi_3 |![Image](../../Thumbnails/Lampen/Urbi_3.jpg)| 
+| DL30 |![Image](../../Thumbnails/Lampen/DL30.jpg)| 
 | Laterne |![Image](../../Thumbnails/Lampen/Laterne.jpg)| 
 | 8949 |![Image](../../Thumbnails/Lampen/8949.jpg)| 
 | Floodlight_FL_20 |![Image](../../Thumbnails/Lampen/Floodlight_FL_20.jpg)| 
