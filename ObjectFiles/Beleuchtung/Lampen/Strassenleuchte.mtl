@@ -1,8 +1,8 @@
-# Blender MTL File: 'Grosse_Glocke.blend'
-# Material Count: 6
+# Blender MTL File: 'Strassenleuchte.blend'
+# Material Count: 5
 
-newmtl Glass
-Ns 359.999993
+newmtl Glas
+Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
@@ -11,39 +11,31 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl Glass.001
-Ns 359.999993
+newmtl Metall.003
+Ns 640.000019
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.000000
+Ni 1.450000
 d 1.000000
-illum 2
+illum 3
+map_Bump ../../../../Leuchten/OBJ/Texturen/metal_0071_1k_HD5XFx/metal_0071_normal_directx_1k.png
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
 
-newmtl Metall.001
-Ns 698.155050
-Ka 0.943005 0.943005 0.943005
-Kd 0.752941 0.752941 0.752941
-Ks 0.752941 0.752941 0.752941
+newmtl Metall.004
+Ns 640.000019
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Bump ../../../../Leuchten/OBJ/Texturen/Metal_Pattern_001_SD/Metal_Pattern_001_NORM.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/Metal_Pattern_001_OCC.jpg
 
-newmtl Metall.002
-Ns 698.155050
-Ka 0.943005 0.943005 0.943005
-Kd 0.752941 0.752941 0.752941
-Ks 0.752941 0.752941 0.752941
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
-
-newmtl dunkelgrau
+newmtl schwarz.003
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -52,7 +44,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/dunkelgrau.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/schwarz.jpg
 
 newmtl weiss
 Ns 250.000000

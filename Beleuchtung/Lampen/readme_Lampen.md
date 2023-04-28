@@ -18,6 +18,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | DL_20 |![Image](../../Thumbnails/Lampen/DL_20.jpg)| 
 | Ringleuchte_1400mm |![Image](../../Thumbnails/Lampen/Ringleuchte_1400mm.jpg)| 
 | Pilz |![Image](../../Thumbnails/Lampen/Pilz.jpg)| 
+| VEB-Alt |![Image](../../Thumbnails/Lampen/VEB-Alt.jpg)| 
 | DL_50_Midi |![Image](../../Thumbnails/Lampen/DL_50_Midi.jpg)| 
 | Kleine_Glocke |![Image](../../Thumbnails/Lampen/Kleine_Glocke.jpg)| 
 | Semaphor |![Image](../../Thumbnails/Lampen/Semaphor.jpg)| 
@@ -27,6 +28,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | RSL |![Image](../../Thumbnails/Lampen/RSL.jpg)| 
 | Lucas_VII |![Image](../../Thumbnails/Lampen/Lucas_VII.jpg)| 
 | DL20 |![Image](../../Thumbnails/Lampen/DL20.jpg)| 
+| Grosse_Glocke |![Image](../../Thumbnails/Lampen/Grosse_Glocke.jpg)| 
 | City-Light_Plus |![Image](../../Thumbnails/Lampen/City-Light_Plus.jpg)| 
 | Stradasole_530 |![Image](../../Thumbnails/Lampen/Stradasole_530.jpg)| 
 | Jana |![Image](../../Thumbnails/Lampen/Jana.jpg)| 
@@ -41,6 +43,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | 2020 |![Image](../../Thumbnails/Lampen/2020.jpg)| 
 | Streetlight_11_Micro |![Image](../../Thumbnails/Lampen/Streetlight_11_Micro.jpg)| 
 | BG2 |![Image](../../Thumbnails/Lampen/BG2.jpg)| 
+| Strassenleuchte |![Image](../../Thumbnails/Lampen/Strassenleuchte.jpg)| 
 | Streetlight_11_Mini |![Image](../../Thumbnails/Lampen/Streetlight_11_Mini.jpg)| 
 | 5460 |![Image](../../Thumbnails/Lampen/5460.jpg)| 
 | Streetlight_11_Midi |![Image](../../Thumbnails/Lampen/Streetlight_11_Midi.jpg)| 
