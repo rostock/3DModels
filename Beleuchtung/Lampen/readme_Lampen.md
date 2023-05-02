@@ -17,6 +17,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | DL_30 |![Image](../../Thumbnails/Lampen/DL_30.jpg)| 
 | DL_20 |![Image](../../Thumbnails/Lampen/DL_20.jpg)| 
 | Ringleuchte_1400mm |![Image](../../Thumbnails/Lampen/Ringleuchte_1400mm.jpg)| 
+| Lumega_IQ_70 |![Image](../../Thumbnails/Lampen/Lumega_IQ_70.jpg)| 
 | Pilz |![Image](../../Thumbnails/Lampen/Pilz.jpg)| 
 | VEB-Alt |![Image](../../Thumbnails/Lampen/VEB-Alt.jpg)| 
 | DL_50_Midi |![Image](../../Thumbnails/Lampen/DL_50_Midi.jpg)| 
