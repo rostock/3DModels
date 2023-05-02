@@ -49,5 +49,6 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Streetlight_11_Midi |![Image](../../Thumbnails/Lampen/Streetlight_11_Midi.jpg)| 
 | Albstadt |![Image](../../Thumbnails/Lampen/Albstadt.jpg)| 
 | Basket |![Image](../../Thumbnails/Lampen/Basket.jpg)| 
+| Discera_600 |![Image](../../Thumbnails/Lampen/Discera_600.jpg)| 
 | DL_50_Mini |![Image](../../Thumbnails/Lampen/DL_50_Mini.jpg)| 
 | Stradasole_400 |![Image](../../Thumbnails/Lampen/Stradasole_400.jpg)| 
