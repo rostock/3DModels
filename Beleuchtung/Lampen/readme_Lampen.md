@@ -29,6 +29,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | RSL |![Image](../../Thumbnails/Lampen/RSL.jpg)| 
 | Lucas_VII |![Image](../../Thumbnails/Lampen/Lucas_VII.jpg)| 
 | DL20 |![Image](../../Thumbnails/Lampen/DL20.jpg)| 
+| 9821 |![Image](../../Thumbnails/Lampen/9821.jpg)| 
 | Grosse_Glocke |![Image](../../Thumbnails/Lampen/Grosse_Glocke.jpg)| 
 | City-Light_Plus |![Image](../../Thumbnails/Lampen/City-Light_Plus.jpg)| 
 | Stradasole_530 |![Image](../../Thumbnails/Lampen/Stradasole_530.jpg)| 
