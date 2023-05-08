@@ -12,7 +12,6 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Urbi_3_x1250_y-1230_ad_h8000 |![Image](../../Thumbnails/Ausleger/Urbi_3_x1250_y-1230_ad_h8000.jpg)| 
 | Grosse_Glocke_x670_y470_ae_h0 |![Image](../../Thumbnails/Ausleger/Grosse_Glocke_x670_y470_ae_h0.jpg)| 
 | Kleine_Glocke_x490_y400_ae_h0 |![Image](../../Thumbnails/Ausleger/Kleine_Glocke_x490_y400_ae_h0.jpg)| 
-| Grosse_Glocke_x470_y670_ae_h0 |![Image](../../Thumbnails/Ausleger/Grosse_Glocke_x470_y670_ae_h0.jpg)| 
 | Agora_x0_y706_ae_h0 |![Image](../../Thumbnails/Ausleger/Agora_x0_y706_ae_h0.jpg)| 
 | Basket_x700_y0_ae_h0 |![Image](../../Thumbnails/Ausleger/Basket_x700_y0_ae_h0.jpg)| 
 | Park_Crown_x650_y0_ae_h0 |![Image](../../Thumbnails/Ausleger/Park_Crown_x650_y0_ae_h0.jpg)| 
