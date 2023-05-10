@@ -6,7 +6,7 @@ Es werden drei grundsätzliche Typen von Leuchten umgesetzt:
 - Ansatzleuchte
 - Hängeleuchte
 
-Zugehörige Masten und Ausleger können über den Dateinamen identifiziert werden.
+Zugehörige Masten, Ausleger oder Wandhalterungen können über den Dateinamen identifiziert werden.
 
 ## Grundlage
 Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte. 
