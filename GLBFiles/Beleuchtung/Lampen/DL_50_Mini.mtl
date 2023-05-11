@@ -1,0 +1,35 @@
+# Blender MTL File: 'DL_50_Mini.blend'
+# Material Count: 3
+
+newmtl Lampe_weiss.003
+Ns 3.999998
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+
+newmtl Plastik_grau.003
+Ns 2.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.729412 0.729412 0.729412
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/Plastik_grau_1k.jpg
+
+newmtl lichtgrau.001
+Ns 64.000023
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.729412 0.729412 0.729412
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/Grau-Körnung.jpg
