@@ -7,4 +7,4 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 ## Modelle 
  | Modellname | Preview | 
  | --- | --- | 
-| Werbetafel_rund |![Image](../../Thumbnails/Werbetafeln/Werbetafel_rund.jpg)| 
+| Werbetafel_rund |![Image](../Thumbnails/Werbetafeln/Werbetafel_rund.jpg)| 
