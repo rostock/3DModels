@@ -15,7 +15,7 @@ for blendfile in os.listdir(pathBlend):
       bpy.ops.wm.open_mainfile(filepath=currentFile)
       blendfileName = blendfile.replace('.blend', '.glb')
       exportPath = os.path.join(pathGLB,blendfileName)
-      bpy.ops.export_scene.obj(filepath=exportPath, axis_forward='-Y', axis_up='Z', use_materials=True, path_mode='RELATIVE')
+      bpy.ops.export_scene.gltf(export_format='GLB', filepath=exportPath, export_image_format='AUTO', convert_lighting_mode='SPEC', export_materials=False, export_force_sampling=True, check_existing=False)
 
 textureFolder = os.path.join(runDir,'Beleuchtung/Lampen/textures')
 dest = os.path.join(pathGLB,'textures/')
