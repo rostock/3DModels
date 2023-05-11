@@ -1,0 +1,57 @@
+# Blender MTL File: 'Werbetafel_rund.blend'
+# Material Count: 5
+
+newmtl HanseSail2023
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../Werbetafeln/textures/HanseSail-2023-Plakat.jpg
+
+newmtl Metall_Chrom
+Ns 980.100000
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/Werbetafel_gerundet_Metall3.JPG
+
+newmtl Rahmenseite
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.417905 0.391592 0.223246
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/Werbetafel_gerundet_Metall1.JPG
+
+newmtl Rahmenseite_hell
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.366253 0.351533 0.250158
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/Werbetafel_gerundet_Metall2.JPG
+
+newmtl Werbeplakat1
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/Fuss_JCDecaux.JPG
