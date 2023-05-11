@@ -6,3 +6,4 @@
    - [Masten](Beleuchtung/Masten/readme_Masten.md)
    - [Wandhalterung](Beleuchtung/Wandhalterung/readme_Wandhalterung.md) 
 - [Verkehrszeichen](Verkehrszeichen/readme_Verkehrszeichen.md) 
+- [Werbetafeln](Werbetafeln/readme_Werbetafeln.md) 
