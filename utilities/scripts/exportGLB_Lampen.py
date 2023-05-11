@@ -8,7 +8,7 @@ runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel")     
 pathBlend = os.path.join(runDir, 'Beleuchtung/Lampen/blender')
 pathGLB = os.path.join(runDir, 'GLBFiles/Beleuchtung/Lampen')
-os.makedirs(pathOBJ, exist_ok=True)
+os.makedirs(pathGLB, exist_ok=True)
 
 for blendfile in os.listdir(pathBlend):
       currentFile = os.path.join(pathBlend,blendfile)
