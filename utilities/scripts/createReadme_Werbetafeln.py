@@ -8,7 +8,7 @@ pathThumb = os.path.join(runDir, 'Thumbnails/Werbetafeln')
 listOfModels = os.listdir(pathThumb)
 models ='## Modelle \n | Modellname | Preview | \n | --- | --- | \n'
 for item in listOfModels:
-    image = os.path.join("../../Thumbnails/Werbetafeln",item)
+    image = os.path.join("../Thumbnails/Werbetafeln",item)
     item = item.replace('.jpg','')
     string = "| "+item+" |![Image]("+image +")| \n"
     models += string
