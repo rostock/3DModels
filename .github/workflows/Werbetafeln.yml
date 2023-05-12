@@ -21,7 +21,7 @@ jobs:
       # export .obj
       - name: export .obj
         run: blender --background --python utilities/scripts/exportOBJ_Werbetafeln.py
-       # export .glb
+      # export .glb
       - name: export .glb
         run: blender --background --python utilities/scripts/exportGLB_Werbetafeln.py
       # render Thumbnails
