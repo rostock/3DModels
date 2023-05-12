@@ -13,7 +13,7 @@ for item in listOfModels:
     string = "| "+item+" |![Image]("+image +")| \n"
     models += string
 
-text = """# Lampen
+text = """# Werbetafelnn
 ## Allgemein
 Dieses Verzeichnis enthält Modelle von Werbetafeln.
 
