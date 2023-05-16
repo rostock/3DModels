@@ -19,6 +19,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | DL30 |![Image](../../Thumbnails/Lampen/DL30.jpg)| 
 | 5460 |![Image](../../Thumbnails/Lampen/5460.jpg)| 
 | BG2 |![Image](../../Thumbnails/Lampen/BG2.jpg)| 
+| Generisch |![Image](../../Thumbnails/Lampen/Generisch.jpg)| 
 | Viatana |![Image](../../Thumbnails/Lampen/Viatana.jpg)| 
 | Albstadt |![Image](../../Thumbnails/Lampen/Albstadt.jpg)| 
 | City-Light_Plus |![Image](../../Thumbnails/Lampen/City-Light_Plus.jpg)| 
