@@ -1,19 +1,19 @@
 # Blender MTL File: 'City-Light_Plus.blend'
-# Material Count: 6
+# Material Count: 5
 
-newmtl Glass.004
-Ns 360.000029
-Ka 0.582160 0.582160 0.582160
+newmtl Glass
+Ns 809.999997
+Ka 0.990000 0.990000 0.990000
 Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
+Ks 0.990000 0.990000 0.990000
 Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 3
+Ni 1.100000
+d 0.100000
+illum 6
 
-newmtl Metall.001
-Ns 639.999995
-Ka 0.900000 0.900000 0.900000
+newmtl Metall
+Ns 809.999997
+Ka 0.990000 0.990000 0.990000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -22,40 +22,29 @@ d 1.000000
 illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
 
-newmtl grau
-Ns 90.000007
-Ka 0.700000 0.700000 0.700000
+newmtl purpurrot
+Ns 489.999983
+Ka 0.500000 0.500000 0.500000
 Kd 0.076579 0.000000 0.000509
-Ks 0.500000 0.500000 0.500000
+Ks 0.100000 0.100000 0.100000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/grau128.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_3004_Purpurrot.jpg
 
-newmtl grau.
-Ns 90.000007
-Ka 0.700000 0.700000 0.700000
-Kd 0.076579 0.000000 0.000509
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-map_Kd ../../../Beleuchtung/Lampen/blender/Textur/grau128.jpg
-
-newmtl schwarz.002
+newmtl schwarz.
 Ns 250.000000
-Ka 1.000000 1.000000 1.000000
+Ka 0.800000 0.800000 0.800000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 2
+illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/schwarz.jpg
 
-newmtl weiss.006
+newmtl weiss
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
