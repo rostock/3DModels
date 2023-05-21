@@ -9,8 +9,6 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
  | --- | --- |
 | Werbetafel_eckig |![Image](../Thumbnails/Werbetafeln/Werbetafel_eckig.jpg)| 
 | Ganzstelle_Litfasssaeule |![Image](../Thumbnails/Werbetafeln/Ganzstelle_Litfasssaeule.jpg)| 
-| Ganzstelle_Litfaßsaeule |![Image](../Thumbnails/Werbetafeln/Ganzstelle_Litfaßsaeule.jpg)| 
 | JCDecaux_City_Light |![Image](../Thumbnails/Werbetafeln/JCDecaux_City_Light.jpg)| 
 | Werbetafel_rund |![Image](../Thumbnails/Werbetafeln/Werbetafel_rund.jpg)| 
-| Allgemeinanschlag_Litfaßsaeule |![Image](../Thumbnails/Werbetafeln/Allgemeinanschlag_Litfaßsaeule.jpg)| 
 | Allgemeinanschlag_Litfasssaeule |![Image](../Thumbnails/Werbetafeln/Allgemeinanschlag_Litfasssaeule.jpg)| 
