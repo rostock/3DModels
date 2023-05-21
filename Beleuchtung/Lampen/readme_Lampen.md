@@ -40,6 +40,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Streetlight_11_Micro |![Image](../../Thumbnails/Lampen/Streetlight_11_Micro.jpg)| 
 | Agora |![Image](../../Thumbnails/Lampen/Agora.jpg)| 
 | DL_50_Mini |![Image](../../Thumbnails/Lampen/DL_50_Mini.jpg)| 
+| DL_302 |![Image](../../Thumbnails/Lampen/DL_302.jpg)| 
 | Laterne |![Image](../../Thumbnails/Lampen/Laterne.jpg)| 
 | Grosse_Glocke |![Image](../../Thumbnails/Lampen/Grosse_Glocke.jpg)| 
 | Jana |![Image](../../Thumbnails/Lampen/Jana.jpg)| 
