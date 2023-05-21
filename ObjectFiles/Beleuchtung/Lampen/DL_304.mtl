@@ -1,5 +1,5 @@
-# Blender MTL File: 'DL_302.blend'
-# Material Count: 4
+# Blender MTL File: 'DL_304.blend'
+# Material Count: 5
 
 newmtl Glas.002
 Ns 980.100000
@@ -11,7 +11,18 @@ Ni 1.450000
 d 0.300000
 illum 6
 
-newmtl Grasgruen
+newmtl Grasgruen.001
+Ns 250.000000
+Ka 0.300000 0.300000 0.300000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/RAL_6010_Grasgruen.jpg
+
+newmtl Grasgruen.002
 Ns 250.000000
 Ka 0.300000 0.300000 0.300000
 Kd 0.800000 0.800000 0.800000
@@ -33,13 +44,13 @@ d 1.000000
 illum 3
 map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/weiss.jpg
 
-newmtl weiss
+newmtl weiss.003
 Ns 250.000000
-Ka 0.900000 0.900000 0.900000
+Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
-illum 3
+illum 2
 map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/weiss.jpg

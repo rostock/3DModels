@@ -30,6 +30,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Ringleuchte_1400mm |![Image](../../Thumbnails/Lampen/Ringleuchte_1400mm.jpg)| 
 | Basket |![Image](../../Thumbnails/Lampen/Basket.jpg)| 
 | Lucas |![Image](../../Thumbnails/Lampen/Lucas.jpg)| 
+| DL_304 |![Image](../../Thumbnails/Lampen/DL_304.jpg)| 
 | Stradasole_530 |![Image](../../Thumbnails/Lampen/Stradasole_530.jpg)| 
 | Große_Glocke |![Image](../../Thumbnails/Lampen/Große_Glocke.jpg)| 
 | Floodlight_FL_20 |![Image](../../Thumbnails/Lampen/Floodlight_FL_20.jpg)| 
