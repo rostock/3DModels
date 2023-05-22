@@ -1,5 +1,16 @@
 # Blender MTL File: 'Basket.blend'
-# Material Count: 3
+# Material Count: 4
+
+newmtl Chrom__glatt
+Ns 809.999997
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
 
 newmtl Glass
 Ns 809.999997
@@ -23,10 +34,10 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/dunkelgrau.jpg
 
 newmtl weiss
-Ns 489.999983
-Ka 0.900000 0.900000 0.900000
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
 Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
+Ks 0.900000 0.900000 0.900000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
