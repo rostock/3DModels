@@ -20,9 +20,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/RAL_6010_Grasgruen.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_6010_Grasgruen.jpg
 
-newmtl chrome.
+newmtl chrome
 Ns 809.999997
 Ka 0.990000 0.990000 0.990000
 Kd 0.638271 0.638271 0.638271
@@ -31,7 +31,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
 
 newmtl weiss
 Ns 250.000000
@@ -42,4 +42,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
