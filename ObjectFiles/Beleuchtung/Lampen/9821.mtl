@@ -23,7 +23,7 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/hellgrau.jpg
 
 newmtl schwarz
-Ns 489.999983
+Ns 722.499990
 Ka 0.900000 0.900000 0.900000
 Kd 0.800000 0.800000 0.800000
 Ks 0.900000 0.900000 0.900000
