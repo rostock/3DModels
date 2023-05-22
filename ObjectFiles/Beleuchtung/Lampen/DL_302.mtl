@@ -22,7 +22,7 @@ d 1.000000
 illum 3
 map_Kd ../../../J:/Photogrammetrie/Leuchte/Github/3DModels/Beleuchtung/Lampen/textures/RAL_6010_Grasgruen.jpg
 
-newmtl chrome.001
+newmtl chrome.
 Ns 809.999997
 Ka 0.990000 0.990000 0.990000
 Kd 0.638271 0.638271 0.638271
