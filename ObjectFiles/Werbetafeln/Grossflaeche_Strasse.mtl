@@ -12,7 +12,7 @@ d 1.000000
 illum 3
 map_Kd ../../Werbetafeln/textures/Rahmen.jpg
 
-newmtl Stoeer
+newmtl Stroeer
 Ns 250.000000
 Ka 0.990000 0.990000 0.990000
 Kd 0.800000 0.800000 0.800000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../Werbetafeln/textures/Stoeer.jpg
+map_Kd ../../Werbetafeln/textures/Stroeer.jpg
 
 newmtl Tiefschwarz
 Ns 250.000000
