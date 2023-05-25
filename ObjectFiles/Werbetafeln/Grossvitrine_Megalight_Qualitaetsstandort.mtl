@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Werbetafel_gerundet_Metall3.JPG
+map_Kd ../../Werbetafeln/textures/Werbetafel_gerundet_Metall3.JPG
 
 newmtl Perlnachtblau
 Ns 250.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/RAL_5005_Signalblau.jpg
+map_Kd ../../Werbetafeln/textures/RAL_5005_Signalblau.jpg
 
 newmtl Stroeer_Schrift.001
 Ns 250.000000
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Stroeer_Signalblau.jpg
+map_Kd ../../Werbetafeln/textures/Stroeer_Signalblau.jpg
 
 newmtl Tiefschwarz
 Ns 250.000000
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/RAL_9005_Tiefschwarz.jpg
+map_Kd ../../Werbetafeln/textures/RAL_9005_Tiefschwarz.jpg
 
 newmtl Tiefschwarz.002
 Ns 250.000000
@@ -54,7 +54,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/RAL_9005_Tiefschwarz.jpg
+map_Kd ../../Werbetafeln/textures/RAL_9005_Tiefschwarz.jpg
 
 newmtl Werbeplaket
 Ns 809.999997
@@ -65,7 +65,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Urlaub_buchen.jpg
+map_Kd ../../Werbetafeln/textures/Urlaub_buchen.jpg
 
 newmtl grauweiss
 Ns 809.999997
@@ -76,4 +76,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/RAL_9002_Grauweiss.jpg
+map_Kd ../../Werbetafeln/textures/RAL_9002_Grauweiss.jpg
