@@ -1,5 +1,5 @@
 # Blender MTL File: 'Grossvitrine_Megalight_Qualitaetsstandort.blend'
-# Material Count: 6
+# Material Count: 5
 
 newmtl Chrom
 Ns 902.499999
@@ -55,14 +55,3 @@ Ni 1.450000
 d 1.000000
 illum 3
 map_Kd ../../Werbetafeln/textures/Urlaub_buchen.jpg
-
-newmtl grauweiss
-Ns 809.999997
-Ka 0.100000 0.100000 0.100000
-Kd 0.800000 0.800000 0.800000
-Ks 0.990000 0.990000 0.990000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-map_Kd ../../Werbetafeln/textures/RAL_9002_Grauweiss.jpg
