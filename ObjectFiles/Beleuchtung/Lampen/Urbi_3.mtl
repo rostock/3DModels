@@ -11,6 +11,17 @@ Ni 1.010000
 d 0.700000
 illum 6
 
+newmtl RAL_9005_Tiefschwarz
+Ns 359.999993
+Ka 0.500000 0.500000 0.500000
+Kd 0.083531 0.083531 0.083531
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+
 newmtl metallisch
 Ns 359.999993
 Ka 0.990000 0.990000 0.990000
@@ -21,14 +32,3 @@ Ni 1.450000
 d 1.000000
 illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9006_Weissaluminium.jpg
-
-newmtl schwarz
-Ns 359.999993
-Ka 0.500000 0.500000 0.500000
-Kd 0.083531 0.083531 0.083531
-Ks 0.200000 0.200000 0.200000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
