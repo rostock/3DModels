@@ -1,0 +1,57 @@
+# Blender MTL File: 'Grossflaeche_CityStar.blend'
+# Material Count: 5
+
+newmtl Blaugrau
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/RAL_7031_Blaugrau.jpg
+
+newmtl Lichtgrau
+Ns 250.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/RAL_7035_Lichtgrau.jpg
+
+newmtl Mausgrau
+Ns 250.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/RAL_7005_Mausgrau.jpg
+
+newmtl Stroeer
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/Stroeer_Blaugrau.jpg
+
+newmtl Werbeplakat.002
+Ns 809.999997
+Ka 0.100000 0.100000 0.100000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbetafeln/textures/Urlaub_buchen.jpg
