@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Werbetafel_Stroeer_Front.jpg
+map_Kd ../../Werbetafeln/textures/Werbetafel_Stroeer_Front.jpg
 
 newmtl Rahmen_Front.001
 Ns 250.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Werbetafel_Stroeer_Rahmen.jpg
+map_Kd ../../Werbetafeln/textures/Werbetafel_Stroeer_Rahmen.jpg
 
 newmtl Stroeer_Schrift.001
 Ns 250.000000
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Stroeer_Weissaluminium.jpg
+map_Kd ../../Werbetafeln/textures/Stroeer_Weissaluminium.jpg
 
 newmtl Tiefschwarz
 Ns 250.000000
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/RAL_9005_Tiefschwarz.jpg
+map_Kd ../../Werbetafeln/textures/RAL_9005_Tiefschwarz.jpg
 
 newmtl Weissaluminium.001
 Ns 250.000000
@@ -54,7 +54,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/RAL_9006_Weissaluminium.jpg
+map_Kd ../../Werbetafeln/textures/RAL_9006_Weissaluminium.jpg
 
 newmtl Werbeplakat.001
 Ns 809.999997
@@ -65,4 +65,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Werbetafeln/textures/Urlaub_buchen.jpg
+map_Kd ../../Werbetafeln/textures/Urlaub_buchen.jpg
