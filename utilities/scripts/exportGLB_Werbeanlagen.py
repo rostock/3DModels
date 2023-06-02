@@ -7,7 +7,7 @@ import shutil
 runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel")     
 pathBlend = os.path.join(runDir, 'Werbeanlagen/blender')
-pathGLB = os.path.join(runDir, 'GLBFiles/Werbetafeln')
+pathGLB = os.path.join(runDir, 'GLBFiles/Werbeanlagen')
 os.makedirs(pathGLB, exist_ok=True)
 
 for blendfile in os.listdir(pathBlend):
