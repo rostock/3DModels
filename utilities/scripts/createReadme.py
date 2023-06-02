@@ -2,7 +2,7 @@ import os
 import pathlib
 import git
 
-text = "# 3D Modelle \n Dieses Repository enthält .OBJ Modelle für: \n"
+text = "# 3D Modelle \n Dieses Repository enthält .OBJ und .GLB Modelle für: \n"
 
 runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel")

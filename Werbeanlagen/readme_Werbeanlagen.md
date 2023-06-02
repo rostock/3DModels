@@ -1,4 +1,4 @@
-# Werbetafelnn
+# Werbeanlagen
 ## Allgemein
 Dieses Verzeichnis enthält Modelle von Werbetafeln und Litfaßsäulen.
 

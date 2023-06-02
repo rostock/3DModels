@@ -6,7 +6,7 @@ import shutil
 
 runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel")     
-pathBlend = os.path.join(runDir, 'Werbetafeln/blender')
+pathBlend = os.path.join(runDir, 'Werbeanlagen/blender')
 pathGLB = os.path.join(runDir, 'GLBFiles/Werbetafeln')
 os.makedirs(pathGLB, exist_ok=True)
 
@@ -17,7 +17,7 @@ for blendfile in os.listdir(pathBlend):
       exportPath = os.path.join(pathGLB,blendfileName)
       bpy.ops.export_scene.gltf(export_format='GLB', filepath=exportPath)
 
-textureFolder = os.path.join(runDir,'Werbetafeln/textures')
+textureFolder = os.path.join(runDir,'Werbeanlagen/textures')
 dest = os.path.join(pathGLB,'textures/')
 os.makedirs(dest, exist_ok=True)
 for file in os.listdir(textureFolder):

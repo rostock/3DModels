@@ -6,7 +6,7 @@ import git
 runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel")
 # path to blendfiles   
-pathBlend = os.path.join(runDir, 'Werbetafeln/blender')
+pathBlend = os.path.join(runDir, 'Werbeanlagen/blender')
 
 for blendfile in os.listdir(pathBlend):
     currentFile = os.path.join(pathBlend,blendfile)
@@ -16,7 +16,7 @@ for blendfile in os.listdir(pathBlend):
     blendfileName = blendfile.replace('.blend', '.jpg')
     blendfileName = blendfileName.replace(" ","_")
     # create export path
-    exportPath = os.path.join(runDir, 'Thumbnails/Werbetafeln')
+    exportPath = os.path.join(runDir, 'Thumbnails/Werbeanlagen')
     exportPathPlusName = os.path.join(exportPath,blendfileName)
     # set export format to jpeg
     bpy.context.scene.render.image_settings.file_format='JPEG'
