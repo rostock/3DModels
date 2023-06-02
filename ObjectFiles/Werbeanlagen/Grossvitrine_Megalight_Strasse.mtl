@@ -1,0 +1,68 @@
+# Blender MTL File: 'Grossvitrine_Megalight_Strasse.blend'
+# Material Count: 6
+
+newmtl Frontgitter.001
+Ns 250.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Werbetafel_Stroeer_Front.jpg
+
+newmtl Rahmen_Front.001
+Ns 250.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Werbetafel_Stroeer_Rahmen.jpg
+
+newmtl Stroeer_Schrift.001
+Ns 250.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Stroeer_Weissaluminium.jpg
+
+newmtl Tiefschwarz
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/RAL_9005_Tiefschwarz.jpg
+
+newmtl Weissaluminium.001
+Ns 250.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/RAL_9006_Weissaluminium.jpg
+
+newmtl Werbeplakat.001
+Ns 809.999997
+Ka 0.100000 0.100000 0.100000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Urlaub_buchen.jpg

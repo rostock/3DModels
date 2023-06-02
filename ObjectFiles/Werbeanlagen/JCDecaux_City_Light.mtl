@@ -1,0 +1,57 @@
+# Blender MTL File: 'JCDecaux_City_Light.blend'
+# Material Count: 5
+
+newmtl JCDecaux
+Ns 489.999983
+Ka 0.100000 0.100000 0.100000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/JCDecaux_Schriftzug.jpg
+
+newmtl Lochblech
+Ns 489.999983
+Ka 0.100000 0.100000 0.100000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Lochblech.jpg
+
+newmtl Plakat
+Ns 980.100000
+Ka 0.100000 0.100000 0.100000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Urlaub_buchen.jpg
+
+newmtl TextureAtlas_1002
+Ns 902.499999
+Ka 0.990000 0.990000 0.990000
+Kd 0.600000 0.600000 0.600000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/weiss.jpg
+
+newmtl Tiefschwarz
+Ns 489.999983
+Ka 0.300000 0.300000 0.300000
+Kd 0.600000 0.600000 0.600000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/RAL_9005_Tiefschwarz.jpg

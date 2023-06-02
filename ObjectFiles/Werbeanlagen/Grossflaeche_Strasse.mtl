@@ -1,0 +1,57 @@
+# Blender MTL File: 'Grossflaeche_Strasse.blend'
+# Material Count: 5
+
+newmtl Rahmen
+Ns 250.000000
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Rahmen.jpg
+
+newmtl Stroeer
+Ns 250.000000
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/Stroeer.jpg
+
+newmtl Tiefschwarz
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/RAL_9005_Tiefschwarz.jpg
+
+newmtl Werbeplakat
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../Werbeanlagen/textures/Urlaub_buchen.jpg
+
+newmtl beige
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../Werbeanlagen/textures/RAL_1001_Beige.jpg
