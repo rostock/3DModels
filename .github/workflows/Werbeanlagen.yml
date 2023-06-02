@@ -1,9 +1,9 @@
-name: create Werbetafeln
+name: create Werbeanlagen
 
 on:
   push:
     paths:
-      - "Werbetafeln/**"
+      - "Werbeanlagen/**"
   workflow_dispatch:
     
 jobs:
@@ -20,16 +20,16 @@ jobs:
         run: pip install gitpython
       # export .obj
       - name: export .obj
-        run: blender --background --python utilities/scripts/exportOBJ_Werbetafeln.py
+        run: blender --background --python utilities/scripts/exportOBJ_Werbeanlagen.py
       # export .glb
       - name: export .glb
-        run: blender --background --python utilities/scripts/exportGLB_Werbetafeln.py
+        run: blender --background --python utilities/scripts/exportGLB_Werbeanlagen.py
       # render Thumbnails
       - name: Render Thumbnails
-        run: blender --background --python utilities/scripts/renderThumbnail_Werbetafeln.py
+        run: blender --background --python utilities/scripts/renderThumbnail_Werbeanlagen.py
       # create Readme
       - name: create Readme
-        run: python utilities/scripts/createReadme_Werbetafeln.py
+        run: python utilities/scripts/createReadme_Werbeanlagen.py
       # commit changes
       - name: commit changes
         run: |
