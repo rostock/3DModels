@@ -13,7 +13,7 @@ for item in listOfModels:
     string = "| "+item+" |![Image]("+image +")| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/dev/GLBFiles/Werbetafeln/"+item+".glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20)  |\n"
     models += string
 
-text = """# Werbetafelnn
+text = """# Werbetafeln
 ## Allgemein
 Dieses Verzeichnis enthält Modelle von Werbetafeln und Litfaßsäulen.
 
