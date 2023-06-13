@@ -1,6 +1,6 @@
 # Blender v3.5.1 OBJ File: 'Ringleuchte_1400mm.blend'
 # www.blender.org
-mtllib Sonderringleuchte_1400mm.mtl
+mtllib Sonderringleuchte_1400_mm.mtl
 o Ringleuchte_BezierCurve.001
 v 0.000000 0.516951 -0.092157
 v 0.000000 0.555372 -0.102834
