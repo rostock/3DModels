@@ -51,5 +51,6 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Stahl_6500 |![Image](../../Thumbnails/Masten/Stahl_6500.jpg)| 
 | Stahl_3500 |![Image](../../Thumbnails/Masten/Stahl_3500.jpg)| 
 | Große_Glocke_6000 |![Image](../../Thumbnails/Masten/Große_Glocke_6000.jpg)| 
+| Jana_4800 |![Image](../../Thumbnails/Masten/Jana_4800.jpg)| 
 | Beton_6500 |![Image](../../Thumbnails/Masten/Beton_6500.jpg)| 
 | Stahl_14000 |![Image](../../Thumbnails/Masten/Stahl_14000.jpg)| 
