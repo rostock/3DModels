@@ -1,0 +1,71 @@
+# Blender MTL File: 'Fahrradampel_rot_gelb_gruen_Mast.blend'
+# Material Count: 6
+
+newmtl fahrradampel_gelb
+Ns 809.999997
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_gelb.jpg
+map_Ke ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_gelb.jpg
+
+newmtl fahrradampel_gruen
+Ns 809.999997
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_gruen.jpg
+map_Ke ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_gruen.jpg
+
+newmtl fahrradampel_rot
+Ns 809.999997
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_rot.jpg
+map_Ke ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_rot.jpg
+
+newmtl frontblende
+Ns 809.999997
+Ka 0.800000 0.800000 0.800000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/fahrradampel_frontflende.jpg
+
+newmtl grau.001
+Ns 359.999993
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/RAL_7004_Signalgrau.jpg
+
+newmtl schwarz.001
+Ns 809.999997
+Ka 0.800000 0.800000 0.800000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../J:/Photogrammetrie/Leuchte/Github/3DModels/Ampeln/textures/RAL_9005_Tiefschwarz.jpg
