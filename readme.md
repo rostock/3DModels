@@ -7,3 +7,4 @@
    - [Wandhalterung](Beleuchtung/Wandhalterung/readme_Wandhalterung.md) 
 - [Verkehrszeichen](Verkehrszeichen/readme_Verkehrszeichen.md) 
 - [Werbeanlagen](Werbeanlagen/readme_Werbeanlagen.md) 
+- [Ampeln](Ampeln/readme_Ampeln.md) 
