@@ -1,5 +1,5 @@
 # Blender MTL File: 'Ampel_Abbieger_links_Mast.blend'
-# Material Count: 6
+# Material Count: 5
 
 newmtl ampel_abbiege_gruen
 Ns 250.000000
@@ -47,17 +47,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd ../../Ampeln/textures/RAL_7004_Signalgrau.jpg
-
-newmtl grau.001
-Ns 250.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd ../../C:/Users/r62xx032/Documents/GitHub/3DModels/Beleuchtung/Lampen/textures/RAL_7004_Signalgrau.jpg
 
 newmtl schwarz
 Ns 639.999995
