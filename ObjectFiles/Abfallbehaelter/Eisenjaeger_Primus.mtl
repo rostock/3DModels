@@ -1,0 +1,12 @@
+# Blender MTL File: 'Eisenjaeger_Primus.blend'
+# Material Count: 1
+
+newmtl Material_Dunkelgrau
+Ns 359.999993
+Ka 0.500000 0.500000 0.500000
+Kd 0.066807 0.066807 0.066807
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3

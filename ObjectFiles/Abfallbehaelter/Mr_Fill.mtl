@@ -1,0 +1,24 @@
+# Blender MTL File: 'Mr_Fill.blend'
+# Material Count: 2
+
+newmtl Mr_Fill_Body
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd ../../Abfallbehaelter/textures/Mr_Fill_texture.jpg
+
+newmtl Mr_Fill_Detail
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd ../../Abfallbehaelter/textures/Metal032_1K_Color.jpg

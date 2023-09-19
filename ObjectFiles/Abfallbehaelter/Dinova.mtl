@@ -1,0 +1,35 @@
+# Blender MTL File: 'Dinova.blend'
+# Material Count: 3
+
+newmtl Metal_Grau
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.281010 0.281010 0.281010
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Abfallbehaelter/textures/Metal032_1K_Color.jpg
+
+newmtl Orange
+Ns 321.408640
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.238903 0.037823
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd ../../Abfallbehaelter/textures/Orange_Texture.jpg
+
+newmtl Orange_Pictogramm
+Ns 321.408640
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.238903 0.037823
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Kd ../../Abfallbehaelter/textures/Orange_Textur_Picto.png
