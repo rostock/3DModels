@@ -46,6 +46,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Stahl_3200 |![Image](../../Thumbnails/Masten/Stahl_3200.jpg)| 
 | Urbi_3_11200_copy |![Image](../../Thumbnails/Masten/Urbi_3_11200_copy.jpg)| 
 | Stahl_14000 |![Image](../../Thumbnails/Masten/Stahl_14000.jpg)| 
+| Urbi_3_6800 |![Image](../../Thumbnails/Masten/Urbi_3_6800.jpg)| 
 | Stahl_8000 |![Image](../../Thumbnails/Masten/Stahl_8000.jpg)| 
 | Kleine_Glocke_4000 |![Image](../../Thumbnails/Masten/Kleine_Glocke_4000.jpg)| 
 | Beton_6000 |![Image](../../Thumbnails/Masten/Beton_6000.jpg)| 
