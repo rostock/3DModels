@@ -1,7 +1,7 @@
 # Blender MTL File: 'Jana_4800.blend'
 # Material Count: 1
 
-newmtl dunkelgrau.014
+newmtl dunkelgrau
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
