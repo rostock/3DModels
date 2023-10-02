@@ -21,7 +21,6 @@ Ni 1.450000
 d 1.000000
 illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/Lochblech.jpg
-map_d ../../../Beleuchtung/Lampen/textures/Lochblech_alpha.jpg
 
 newmtl Mausgrau.001
 Ns 809.999997
