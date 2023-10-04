@@ -27,6 +27,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Stahl_9000 |![Image](../../Thumbnails/Masten/Stahl_9000.jpg)| 
 | Stahl_4300 |![Image](../../Thumbnails/Masten/Stahl_4300.jpg)| 
 | Stahl_12000 |![Image](../../Thumbnails/Masten/Stahl_12000.jpg)| 
+| Basket_4000 |![Image](../../Thumbnails/Masten/Basket_4000.jpg)| 
 | Stahl_11000 |![Image](../../Thumbnails/Masten/Stahl_11000.jpg)| 
 | Urbi_3_8000 |![Image](../../Thumbnails/Masten/Urbi_3_8000.jpg)| 
 | Stahl_5000 |![Image](../../Thumbnails/Masten/Stahl_5000.jpg)| 
