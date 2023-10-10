@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 0.000000
 d 1.000000
 illum 1
-map_Kd ../../Abfallbehaelter/textures/Mr_Fill_texture.jpg
+map_Kd /home/runner/work/3DModels/3DModels/Abfallbehaelter/textures/Mr_Fill_texture.jpg
 
 newmtl Mr_Fill_Detail
 Ns 1000.000000
@@ -21,4 +21,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 0.000000
 d 1.000000
 illum 1
-map_Kd ../../Abfallbehaelter/textures/Metal032_1K_Color.jpg
+map_Kd /home/runner/work/3DModels/3DModels/Abfallbehaelter/textures/Metal032_1K_Color.jpg

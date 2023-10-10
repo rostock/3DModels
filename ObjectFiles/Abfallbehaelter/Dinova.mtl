@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../Abfallbehaelter/textures/Metal032_1K_Color.jpg
+map_Kd /home/runner/work/3DModels/3DModels/Abfallbehaelter/textures/Metal032_1K_Color.jpg
 
 newmtl Orange
 Ns 321.408640
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 0.000000
 d 1.000000
 illum 1
-map_Kd ../../Abfallbehaelter/textures/Orange_Texture.jpg
+map_Kd /home/runner/work/3DModels/3DModels/Abfallbehaelter/textures/Orange_Texture.jpg
 
 newmtl Orange_Pictogramm
 Ns 321.408640
@@ -32,4 +32,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 0.000000
 d 1.000000
 illum 1
-map_Kd ../../Abfallbehaelter/textures/Orange_Textur_Picto.png
+map_Kd /home/runner/work/3DModels/3DModels/Abfallbehaelter/textures/Orange_Textur_Picto.png
