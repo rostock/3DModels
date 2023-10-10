@@ -77,7 +77,7 @@ for filename in os.listdir(pathOBJ):
             #replace all occurrences of the required string
             data = data.replace(oldText, newText)
             data = data.replace('..\\\\',' ')
-            data = data.replace('../','../../Verkehrszeichen/')
+            data = data.replace('../','../Verkehrszeichen/')
             #close the input file
             fin.close()
             #open the input file in write mode
