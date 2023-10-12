@@ -6,6 +6,7 @@ runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel")     
 pathThumb = os.path.join(runDir, 'Thumbnails/Ampeln')
 listOfModels = os.listdir(pathThumb)
+listOfModels.sort()
 models ='## Modelle \n | Modellname | Preview | 3D-Modell | \n | --- | --- | --- |\n'
 for item in listOfModels:
     image = os.path.join("../Thumbnails/Ampeln",item)
