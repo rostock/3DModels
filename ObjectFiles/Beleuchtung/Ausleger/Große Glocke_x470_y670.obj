@@ -1,4 +1,4 @@
-# Blender v3.5.1 OBJ File: 'Große Glocke_x470_y670.blend'
+# Blender v3.6.4 OBJ File: 'Große Glocke_x470_y670.blend'
 # www.blender.org
 mtllib Große Glocke_x470_y670.mtl
 o Ausleger_Große__Glocke_Curve.001
@@ -2346,7 +2346,7 @@ vn -0.2850 0.2850 -0.9152
 vn -0.6557 0.6557 -0.3744
 vn -0.6557 0.6557 0.3743
 vn -0.2850 0.2850 0.9152
-vn -0.5083 0.5083 -0.6951
+vn -0.5083 0.5083 -0.6952
 vn -0.7071 0.7071 0.0000
 vn -0.5083 0.5083 0.6952
 vn -0.3827 0.9239 0.0000

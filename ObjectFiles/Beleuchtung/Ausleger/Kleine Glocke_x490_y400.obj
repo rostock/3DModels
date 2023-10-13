@@ -1,4 +1,4 @@
-# Blender v3.5.1 OBJ File: 'Kleine Glocke_x490_y400.blend'
+# Blender v3.6.4 OBJ File: 'Kleine Glocke_x490_y400.blend'
 # www.blender.org
 mtllib Kleine Glocke_x490_y400.mtl
 o Ausleger_Kleine_Glocke_Curve.001
@@ -630,7 +630,7 @@ vn 0.6963 0.7121 -0.0898
 vn 0.8890 0.3889 -0.2417
 vn 0.3688 0.9283 -0.0476
 vn 0.6739 0.7157 -0.1833
-vn 0.3551 0.9298 -0.0966
+vn 0.3550 0.9298 -0.0966
 vn -0.0151 0.9998 0.0091
 vn -0.3399 0.9176 0.2062
 vn -0.6120 0.6984 0.3711

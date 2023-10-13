@@ -1,4 +1,4 @@
-# Blender v3.5.1 OBJ File: 'Urbi 3 Basket_x700_y0.blend'
+# Blender v3.6.4 OBJ File: 'Urbi 3 Basket_x700_y0.blend'
 # www.blender.org
 mtllib Urbi 3 Basket_x700_y0.mtl
 o Querträger_Cylinder.005
@@ -391,7 +391,7 @@ vn 0.1261 -0.6173 0.7766
 vn 0.0712 -0.8959 0.4384
 vn 0.0021 -0.9999 0.0127
 vn -0.0677 -0.9060 -0.4178
-vn -0.1243 -0.6299 -0.7666
+vn -0.1243 -0.6299 -0.7667
 vn -0.1559 -0.2254 -0.9617
 vn -0.1559 0.2254 -0.9617
 vn -0.1243 0.6299 -0.7667
