@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg
+map_Kd ../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg
 
 newmtl Eisen
 Ns 2.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/Metal032_1K_Color.jpg
+map_Kd ../../Beleuchtung/Lampen/textures/Metal032_1K_Color.jpg
 
 newmtl Lampenring
 Ns 2.000000
@@ -32,4 +32,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg
+map_Kd ../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg

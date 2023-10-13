@@ -20,8 +20,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Bump ../../../../Leuchten/OBJ/Texturen/metal_0071_1k_HD5XFx/metal_0071_normal_directx_1k.png
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Bump ../../Leuchten/OBJ/Texturen/metal_0071_1k_HD5XFx/metal_0071_normal_directx_1k.png
+map_Kd ../../Beleuchtung/Lampen/textures/weiss.jpg
 
 newmtl Metall.004
 Ns 640.000019
@@ -32,8 +32,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Bump ../../../../Leuchten/OBJ/Texturen/Metal_Pattern_001_SD/Metal_Pattern_001_NORM.jpg
-map_Kd ../../../Beleuchtung/Lampen/textures/Metal_Pattern_001_OCC.jpg
+map_Bump ../../Leuchten/OBJ/Texturen/Metal_Pattern_001_SD/Metal_Pattern_001_NORM.jpg
+map_Kd ../../Beleuchtung/Lampen/textures/Metal_Pattern_001_OCC.jpg
 
 newmtl schwarz.003
 Ns 250.000000
@@ -44,7 +44,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/schwarz.jpg
+map_Kd ../../Beleuchtung/Lampen/textures/schwarz.jpg
 
 newmtl weiss
 Ns 250.000000
@@ -55,4 +55,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd ../../Beleuchtung/Lampen/textures/weiss.jpg
