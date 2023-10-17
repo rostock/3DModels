@@ -1,9 +1,6 @@
 name: create Ampeln
 
 on:
-  push:
-    paths:
-      - "Ampeln/**"
   workflow_dispatch:
     
 jobs:

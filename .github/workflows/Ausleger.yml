@@ -1,9 +1,6 @@
 name: create Ausleger
 
 on:
-  push:
-    paths:
-      - "Beleuchtung/Ausleger/**"
   workflow_dispatch:
     
 jobs:

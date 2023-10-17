@@ -1,9 +1,6 @@
 name: create Werbeanlagen
 
 on:
-  push:
-    paths:
-      - "Werbeanlagen/**"
   workflow_dispatch:
     
 jobs:

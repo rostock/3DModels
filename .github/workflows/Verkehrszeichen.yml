@@ -1,9 +1,6 @@
 name: create Verkehrszeichen
 
 on:
-  push:
-    paths:
-      - "Verkehrszeichen/**"
   workflow_dispatch:
 
 jobs:

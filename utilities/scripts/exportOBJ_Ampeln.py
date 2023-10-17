@@ -23,3 +23,21 @@ os.makedirs(dest, exist_ok=True)
 for file in os.listdir(textureFolder):
     fileDir = os.path.join(textureFolder,file)
     shutil.copy2(fileDir, dest)
+
+# replace texture reference in .mtl                     
+for filename in os.listdir(pathOBJ):
+      if filename.endswith('.mtl'):
+            #read mtl file
+            fin = open(os.path.join(pathOBJ, filename), "rt")
+            #read file contents to string
+            data = fin.read()
+            #replace all occurrences of the required string
+            data = data.replace('../../','../')
+            #close the input file
+            fin.close()
+            #open the input file in write mode
+            fin = open(os.path.join(pathOBJ, filename), "wt")
+            #overrite the input file with the resulting data
+            fin.write(data)
+            #close the file
+            fin.close()

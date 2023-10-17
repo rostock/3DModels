@@ -1,9 +1,6 @@
 name: create Wandhalterung
 
 on:
-  push:
-    paths:
-      - "Beleuchtung/Wandhalterung/**"
   workflow_dispatch:
     
 jobs:

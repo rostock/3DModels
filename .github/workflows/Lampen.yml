@@ -1,9 +1,6 @@
 name: create Lampen
 
 on:
-  push:
-    paths:
-      - "Beleuchtung/Lampen/**"
   workflow_dispatch:
     
 jobs:

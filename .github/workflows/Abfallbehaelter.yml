@@ -1,9 +1,6 @@
 name: create Abfallbehaelter
 
 on:
-  push:
-    paths:
-      - "Abfallbehaelter/**"
   workflow_dispatch:
     
 jobs:

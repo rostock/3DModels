@@ -1,9 +1,6 @@
 name: create Masten
 
 on:
-  push:
-    paths:
-      - "Beleuchtung/Masten/**"
   workflow_dispatch:
     
 jobs:
