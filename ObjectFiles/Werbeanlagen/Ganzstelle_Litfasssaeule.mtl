@@ -1,0 +1,35 @@
+# Blender MTL File: 'Ganzstelle_Litfasssaeule.blend'
+# Material Count: 3
+
+newmtl Plakat1.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../Werbeanlagen/textures/HanseSail-2023-Plakat_Saeule.jpg
+
+newmtl Plakat2.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../Werbeanlagen/textures/Warntag-Plakat.jpg
+
+newmtl Ultramarinblau.001
+Ns 639.999995
+Ka 0.100000 0.100000 0.100000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Werbeanlagen/textures/RAL_5002_Ultramarinblau.jpg

@@ -21,6 +21,9 @@ jobs:
       # export .obj
       - name: export .obj
         run: blender --background --python utilities/scripts/exportOBJ_Lampen.py
+      # export .glb
+      - name: export .glb
+        run: blender --background --python utilities/scripts/exportGLB_Lampen.py
       # render Thumbnails
       - name: Render Thumbnails
         run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py

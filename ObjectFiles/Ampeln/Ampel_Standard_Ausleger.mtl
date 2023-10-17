@@ -1,0 +1,82 @@
+# Blender MTL File: 'Ampel_Standard_Ausleger.blend'
+# Material Count: 7
+
+newmtl Kontrastblende
+Ns 489.999983
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Ampeln/textures/Kontrastblende.jpg
+
+newmtl ampel_gelb
+Ns 250.000000
+Ka 0.999000 0.999000 0.999000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Ampeln/textures/gelb.jpg
+map_Ke ../../Ampeln/textures/gelb.jpg
+
+newmtl ampel_gruen
+Ns 250.000000
+Ka 0.999000 0.999000 0.999000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Ampeln/textures/gruen.jpg
+map_Ke ../../Ampeln/textures/gruen.jpg
+
+newmtl ampel_rot.001
+Ns 250.000000
+Ka 0.999000 0.999000 0.999000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Ampeln/textures/rot.jpg
+map_Ke ../../Ampeln/textures/rot.jpg
+
+newmtl galvanisiertes_Metall
+Ns 250.000000
+Ka 0.700000 0.700000 0.700000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Ampeln/textures/galvanized-metal-texture-seamless-hr.jpg
+
+newmtl grau
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../Ampeln/textures/RAL_7004_Signalgrau.jpg
+
+newmtl schwarz
+Ns 639.999995
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../Ampeln/textures/RAL_9005_Tiefschwarz.jpg
