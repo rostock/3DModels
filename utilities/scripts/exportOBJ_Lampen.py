@@ -15,7 +15,7 @@ for blendfile in os.listdir(pathBlend):
       bpy.ops.wm.open_mainfile(filepath=currentFile)
       blendfileName = blendfile.replace('.blend', '.obj')
       exportPath = os.path.join(pathOBJ,blendfileName)
-      bpy.ops.wm.obj_export(filepath=exportPath, forward_axis='-Y', up_axis='Z', export_materials=True, export_triangulated_mesh=True, path_mode='RELATIVE')
+      bpy.ops.wm.obj_export(filepath=exportPath, forward_axis='NEGATIVE_Y', up_axis='Z', export_materials=True, export_triangulated_mesh=True, path_mode='RELATIVE')
 
 textureFolder = os.path.join(runDir,'Beleuchtung/Lampen/textures')
 dest = os.path.join(pathOBJ,'textures/')
