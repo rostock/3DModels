@@ -1,8 +1,8 @@
-# Blender MTL File: 'SL_100.blend'
-# Material Count: 4
+# Blender 4.0.2 MTL File: 'SL_100.blend'
+# www.blender.org
 
 newmtl Glas.001
-Ns 809.999997
+Ns 810.000000
 Ka 0.800000 0.800000 0.800000
 Kd 0.438545 0.438545 0.438545
 Ks 0.500000 0.500000 0.500000
@@ -14,7 +14,6 @@ illum 6
 newmtl Lichtgrau
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -25,7 +24,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7035_Lichtgrau.jpg
 newmtl SL_100
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -36,7 +34,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/SL_100.jpg
 newmtl Steingrau
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

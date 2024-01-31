@@ -1,0 +1,42 @@
+# Blender 4.0.2 MTL File: 'SQ_100.blend'
+# www.blender.org
+
+newmtl Glas
+Ns 640.000000
+Ka 0.800000 0.800000 0.800000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.300000
+illum 6
+
+newmtl SQ_100
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/SQ_100.jpg
+
+newmtl graualuminium
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9007_Graualuminium.jpg
+
+newmtl weissaluminium
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9006_Weissaluminium.jpg

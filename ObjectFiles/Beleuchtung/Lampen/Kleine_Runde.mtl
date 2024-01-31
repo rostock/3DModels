@@ -1,8 +1,8 @@
-# Blender MTL File: 'Kleine_Runde.blend'
-# Material Count: 3
+# Blender 4.0.2 MTL File: 'Kleine_Runde.blend'
+# www.blender.org
 
 newmtl Glas.001
-Ns 809.999997
+Ns 810.000000
 Ka 0.800000 0.800000 0.800000
 Kd 0.800000 0.780408 0.714286
 Ks 0.800000 0.800000 0.800000
@@ -14,7 +14,6 @@ illum 6
 newmtl Kleine_Runde.001
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -23,9 +22,8 @@ illum 2
 map_Kd ../../../Beleuchtung/Lampen/textures/Kleine_Runde.jpg
 
 newmtl lichtgrau.001
-Ns 489.999983
+Ns 490.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.530000 0.530000 0.530000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

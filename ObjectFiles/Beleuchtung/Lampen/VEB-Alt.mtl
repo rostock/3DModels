@@ -1,8 +1,8 @@
-# Blender MTL File: 'VEB-Alt.blend'
-# Material Count: 5
+# Blender 4.0.2 MTL File: 'VEB-Alt.blend'
+# www.blender.org
 
 newmtl Glas
-Ns 980.100000
+Ns 980.100037
 Ka 0.990000 0.990000 0.990000
 Kd 0.800000 0.800000 0.800000
 Ks 0.990000 0.990000 0.990000
@@ -12,33 +12,30 @@ d 0.300000
 illum 6
 
 newmtl Metall.003
-Ns 722.499990
+Ns 722.500000
 Ka 0.990000 0.990000 0.990000
-Kd 0.800000 0.800000 0.800000
 Ks 0.990000 0.990000 0.990000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Bump ../../../../Leuchten/OBJ/Texturen/metal_0071_1k_HD5XFx/metal_0071_normal_directx_1k.png
 map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Bump -bm 1.000000 ../../../../Leuchten/OBJ/Texturen/metal_0071_1k_HD5XFx/metal_0071_normal_directx_1k.png
 
 newmtl Metall.004
-Ns 722.499990
+Ns 722.500000
 Ka 0.990000 0.990000 0.990000
-Kd 0.800000 0.800000 0.800000
 Ks 0.990000 0.990000 0.990000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Bump ../../../../Leuchten/OBJ/Texturen/Metal_Pattern_001_SD/Metal_Pattern_001_NORM.jpg
 map_Kd ../../../Beleuchtung/Lampen/textures/Metal_Pattern_001_OCC.jpg
+map_Bump -bm 1.000000 ../../../../Leuchten/OBJ/Texturen/Metal_Pattern_001_SD/Metal_Pattern_001_NORM.jpg
 
 newmtl schwarz.003
-Ns 489.999983
+Ns 490.000000
 Ka 0.010000 0.010000 0.010000
-Kd 0.800000 0.800000 0.800000
 Ks 0.700000 0.700000 0.700000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -49,7 +46,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/schwarz.jpg
 newmtl weiss
 Ns 250.000000
 Ka 0.100000 0.100000 0.100000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

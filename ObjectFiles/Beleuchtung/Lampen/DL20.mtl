@@ -1,10 +1,9 @@
-# Blender MTL File: 'DL20.blend'
-# Material Count: 3
+# Blender 4.0.2 MTL File: 'DL20.blend'
+# www.blender.org
 
 newmtl Eisen
-Ns 39.999995
+Ns 39.999996
 Ka 0.500000 0.500000 0.500000
-Kd 0.800000 0.800000 0.800000
 Ks 0.200000 0.200000 0.200000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -13,9 +12,8 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/Metal032_1K_Color.jpg
 
 newmtl LED-Ring
-Ns 980.100000
+Ns 980.100037
 Ka 0.200000 0.200000 0.200000
-Kd 0.800000 0.800000 0.800000
 Ks 0.990000 0.990000 0.990000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -24,9 +22,8 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg
 
 newmtl Lampenring
-Ns 90.000007
+Ns 90.000000
 Ka 0.990000 0.990000 0.990000
-Kd 0.800000 0.800000 0.800000
 Ks 0.498039 0.498039 0.498039
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

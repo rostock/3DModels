@@ -1,0 +1,42 @@
+# Blender 4.0.2 MTL File: 'Kelch.blend'
+# www.blender.org
+
+newmtl Glas
+Ns 810.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.200000
+illum 6
+
+newmtl chrom
+Ns 810.000000
+Ka 0.900000 0.900000 0.900000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9006_Weissaluminium.jpg
+
+newmtl umbrtaaluminium
+Ns 490.000000
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7022_Umbragrau.jpg
+
+newmtl weiss
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg

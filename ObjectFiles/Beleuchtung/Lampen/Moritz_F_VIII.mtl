@@ -1,8 +1,8 @@
-# Blender MTL File: 'Moritz_F_VIII.blend'
-# Material Count: 5
+# Blender 4.0.2 MTL File: 'Moritz_F_VIII.blend'
+# www.blender.org
 
 newmtl Glas
-Ns 809.999997
+Ns 810.000000
 Ka 0.900000 0.900000 0.900000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
@@ -14,7 +14,6 @@ illum 6
 newmtl Graphitschwarz
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -25,7 +24,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9011_Graphitschwarz.jpg
 newmtl LED
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -34,9 +32,8 @@ illum 2
 map_Kd ../../../Beleuchtung/Lampen/textures/LED.jpg
 
 newmtl Metall
-Ns 809.999997
+Ns 810.000000
 Ka 0.900000 0.900000 0.900000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -47,7 +44,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/hellgrau.jpg
 newmtl Tiefschwarz
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

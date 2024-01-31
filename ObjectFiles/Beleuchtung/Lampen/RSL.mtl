@@ -1,8 +1,8 @@
-# Blender MTL File: 'RSL.blend'
-# Material Count: 4
+# Blender 4.0.2 MTL File: 'RSL.blend'
+# www.blender.org
 
 newmtl Glas
-Ns 809.999997
+Ns 810.000000
 Ka 0.900000 0.900000 0.900000
 Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
@@ -12,9 +12,8 @@ d 0.300000
 illum 1
 
 newmtl Glass.002
-Ns 489.999983
+Ns 490.000000
 Ka 0.800000 0.800000 0.800000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.200000
@@ -23,9 +22,8 @@ illum 6
 map_Kd ../../../Beleuchtung/Lampen/textures/riffled_glass.jpg
 
 newmtl Metall_Rost
-Ns 39.999995
+Ns 39.999996
 Ka 0.900000 0.900000 0.900000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -36,7 +34,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/rusty_dirty_metal_texture-seamless.j
 newmtl weiss
 Ns 250.000000
 Ka 0.900000 0.900000 0.900000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

@@ -1,8 +1,8 @@
-# Blender MTL File: 'Park_Crown.blend'
-# Material Count: 2
+# Blender 4.0.2 MTL File: 'Park_Crown.blend'
+# www.blender.org
 
 newmtl Glas
-Ns 809.999997
+Ns 810.000000
 Ka 0.900000 0.900000 0.900000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
@@ -12,9 +12,8 @@ d 0.200000
 illum 6
 
 newmtl dunkelgrau.001
-Ns 359.999993
+Ns 360.000000
 Ka 0.900000 0.900000 0.900000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

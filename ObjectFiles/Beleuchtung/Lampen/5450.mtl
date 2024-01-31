@@ -1,5 +1,5 @@
-# Blender MTL File: '5450.blend'
-# Material Count: 3
+# Blender 4.0.2 MTL File: '5450.blend'
+# www.blender.org
 
 newmtl Glass.010
 Ns 250.000000
@@ -14,7 +14,6 @@ illum 6
 newmtl dunkelgrau.005
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -25,7 +24,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/Plastik_schwarz_1k.jpg
 newmtl weiss.010
 Ns 250.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

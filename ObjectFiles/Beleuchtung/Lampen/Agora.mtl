@@ -1,8 +1,8 @@
-# Blender MTL File: 'Agora.blend'
-# Material Count: 3
+# Blender 4.0.2 MTL File: 'Agora.blend'
+# www.blender.org
 
 newmtl Glas.005
-Ns 489.999983
+Ns 490.000000
 Ka 0.500000 0.500000 0.500000
 Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
@@ -12,9 +12,8 @@ d 0.400000
 illum 6
 
 newmtl dunkelgrau.002
-Ns 159.999981
+Ns 159.999985
 Ka 0.800000 0.800000 0.800000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -23,9 +22,8 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/dunkelgrau.jpg
 
 newmtl grau
-Ns 159.999981
+Ns 159.999985
 Ka 0.800000 0.800000 0.800000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

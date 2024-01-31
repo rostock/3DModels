@@ -1,8 +1,8 @@
-# Blender MTL File: 'Lucas_VII.blend'
-# Material Count: 4
+# Blender 4.0.2 MTL File: 'Lucas_VII.blend'
+# www.blender.org
 
 newmtl Glas.003
-Ns 902.499999
+Ns 902.500000
 Ka 0.500000 0.500000 0.500000
 Kd 0.800000 0.800000 0.800000
 Ks 1.000000 1.000000 1.000000
@@ -12,9 +12,8 @@ d 0.300000
 illum 6
 
 newmtl Metall
-Ns 809.999997
+Ns 810.000000
 Ka 0.990000 0.990000 0.990000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -23,9 +22,8 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/Metal012_1K_Color.jpg
 
 newmtl dunkelgrau
-Ns 489.999983
+Ns 490.000000
 Ka 0.900000 0.900000 0.900000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -36,7 +34,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/dunkelgrau.jpg
 newmtl weiss
 Ns 250.000000
 Ka 0.500000 0.500000 0.500000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000

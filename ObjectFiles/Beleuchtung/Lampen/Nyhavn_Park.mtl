@@ -1,0 +1,42 @@
+# Blender 4.0.2 MTL File: 'Nyhavn_Park.blend'
+# www.blender.org
+
+newmtl Glas_klar
+Ns 810.000000
+Ka 0.500000 0.500000 0.500000
+Kd 0.799102 0.775822 0.637597
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.200000
+illum 6
+
+newmtl Glas_matt
+Ns 250.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.799102 0.775822 0.637597
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.700000
+illum 6
+
+newmtl Tiefschwarz
+Ns 250.000000
+Ka 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+
+newmtl weiss
+Ns 250.000000
+Ka 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg

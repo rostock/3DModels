@@ -1,0 +1,32 @@
+# Blender 4.0.2 MTL File: 'EVA_I.blend'
+# www.blender.org
+
+newmtl Anthrazitgrau
+Ns 360.000000
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7016_Anthrazitgrau.jpg
+
+newmtl Glas
+Ns 640.000000
+Ka 0.100000 0.100000 0.100000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.900000
+illum 6
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+
+newmtl weiss
+Ns 250.000000
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg

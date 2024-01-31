@@ -1,10 +1,9 @@
-# Blender MTL File: 'DL_50_Midi.blend'
-# Material Count: 3
+# Blender 4.0.2 MTL File: 'DL_50_Midi.blend'
+# www.blender.org
 
 newmtl DL_50_Midi
-Ns 809.999997
+Ns 810.000000
 Ka 0.100000 0.100000 0.100000
-Kd 0.800000 0.800000 0.800000
 Ks 0.990000 0.990000 0.990000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -15,7 +14,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/DL_50_Midi.jpg
 newmtl Plastik_grau.002
 Ns 2.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.729412 0.729412 0.729412
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
@@ -26,7 +24,6 @@ map_Kd ../../../Beleuchtung/Lampen/textures/Plastik_grau_1k.jpg
 newmtl lichtgrau
 Ns 64.000023
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.729412 0.729412 0.729412
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
