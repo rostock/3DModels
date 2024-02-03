@@ -21,7 +21,7 @@ Ni 1.450000
 d 0.700000
 illum 6
 
-newmtl Tiefschwarz
+newmtl Signalgrau
 Ns 250.000000
 Ka 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
@@ -29,7 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7004_Signalgrau.jpg
 
 newmtl weiss
 Ns 250.000000
