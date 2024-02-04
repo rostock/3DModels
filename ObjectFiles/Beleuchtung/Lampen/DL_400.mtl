@@ -1,0 +1,42 @@
+# Blender 4.0.2 MTL File: 'DL_400.blend'
+# www.blender.org
+
+newmtl Glas
+Ns 980.100037
+Ka 0.990000 0.990000 0.990000
+Kd 0.500000 0.500000 0.500000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.100000
+d 0.300000
+illum 6
+
+newmtl Material
+Ns 250.000000
+Ka 0.300000 0.300000 0.300000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/DL_400.jpg
+
+newmtl Tiefschwarz
+Ns 250.000000
+Ka 0.300000 0.300000 0.300000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+
+newmtl weiss
+Ns 250.000000
+Ka 0.300000 0.300000 0.300000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
