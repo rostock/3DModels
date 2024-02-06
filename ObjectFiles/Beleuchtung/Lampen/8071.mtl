@@ -14,12 +14,12 @@ illum 3
 newmtl Glas
 Ns 810.000000
 Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
 Ks 0.800000 0.800000 0.800000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 0.200000
 illum 6
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
 
 newmtl Weiss
 Ns 360.000000
