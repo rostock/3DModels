@@ -4,12 +4,12 @@
 newmtl Chrom
 Ns 810.000000
 Ka 0.999000 0.999000 0.999000
-Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
 
 newmtl Glas
 Ns 810.000000
