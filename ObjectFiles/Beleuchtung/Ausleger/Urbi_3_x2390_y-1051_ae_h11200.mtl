@@ -1,10 +1,9 @@
-# Blender MTL File: 'Urbi_3_x2390_y-1051_ae_h11200.blend'
-# Material Count: 1
+# Blender 4.0.2 MTL File: 'Urbi_3_x2390_y-1051_ae_h11200.blend'
+# www.blender.org
 
 newmtl RAL_9005_Tiefschwarz
-Ns 359.999993
+Ns 360.000000
 Ka 0.500000 0.500000 0.500000
-Kd 0.083531 0.083531 0.083531
 Ks 0.200000 0.200000 0.200000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
