@@ -11,6 +11,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Agora_x0_y706_ae_h0 |![Image](../../Thumbnails/Ausleger/Agora_x0_y706_ae_h0.jpg)| 
 | Basket_x700_y0_ae_h0 |![Image](../../Thumbnails/Ausleger/Basket_x700_y0_ae_h0.jpg)| 
 | Freiburg_x4200_y600_ae_h0 |![Image](../../Thumbnails/Ausleger/Freiburg_x4200_y600_ae_h0.jpg)| 
+| Freiburg_x420_y600_ae_h0 |![Image](../../Thumbnails/Ausleger/Freiburg_x420_y600_ae_h0.jpg)| 
 | Grosse_Glocke_x670_y470_ae_h0 |![Image](../../Thumbnails/Ausleger/Grosse_Glocke_x670_y470_ae_h0.jpg)| 
 | Histo_x550_y-340_ae_h0 |![Image](../../Thumbnails/Ausleger/Histo_x550_y-340_ae_h0.jpg)| 
 | Jana_x700_y0_ae_h0 |![Image](../../Thumbnails/Ausleger/Jana_x700_y0_ae_h0.jpg)| 
