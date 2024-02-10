@@ -1,7 +1,7 @@
 # Blender 4.0.2 MTL File: 'Strahler_490.blend'
 # www.blender.org
 
-newmtl Chrom
+newmtl Chrom_Reflektor
 Ns 810.000000
 Ka 0.900000 0.900000 0.900000
 Ks 0.500000 0.500000 0.500000
@@ -32,7 +32,7 @@ d 0.100000
 illum 6
 
 newmtl Rippen
-Ns 39.999996
+Ns 250.000000
 Ka 0.500000 0.500000 0.500000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -42,7 +42,7 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Rippen_bump.jpg
 
 newmtl Strahlertechnik
-Ns 39.999996
+Ns 250.000000
 Ka 0.500000 0.500000 0.500000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -52,7 +52,7 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Strahlertechnik_bump.jpg
 
 newmtl Tiefschwarz
-Ns 39.999996
+Ns 250.000000
 Ka 0.500000 0.500000 0.500000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
