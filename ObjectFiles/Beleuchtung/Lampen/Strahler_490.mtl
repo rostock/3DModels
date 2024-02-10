@@ -21,18 +21,18 @@ Ni 1.450000
 d 0.200000
 illum 6
 
-newmtl Glas.001
+newmtl Glühbirnenglas
 Ns 902.500000
-Ka 0.990000 0.990000 0.990000
+Ka 0.999000 0.999000 0.999000
 Kd 0.800000 0.800000 0.800000
-Ks 0.990000 0.990000 0.990000
+Ks 0.999000 0.999000 0.999000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
-d 0.100000
+d 0.500000
 illum 6
 
 newmtl Rippen
-Ns 250.000000
+Ns 360.000000
 Ka 0.500000 0.500000 0.500000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -42,7 +42,7 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Rippen_bump.jpg
 
 newmtl Strahlertechnik
-Ns 250.000000
+Ns 360.000000
 Ka 0.500000 0.500000 0.500000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -52,7 +52,7 @@ illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Strahlertechnik_bump.jpg
 
 newmtl Tiefschwarz
-Ns 250.000000
+Ns 360.000000
 Ka 0.500000 0.500000 0.500000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
@@ -60,3 +60,13 @@ Ni 1.450000
 d 1.000000
 illum 3
 map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+
+newmtl anthrazitgrau
+Ns 490.000000
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7016_Anthrazitgrau.jpg
