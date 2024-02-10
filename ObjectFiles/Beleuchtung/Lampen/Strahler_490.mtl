@@ -1,0 +1,72 @@
+# Blender 4.0.2 MTL File: 'Strahler_490.blend'
+# www.blender.org
+
+newmtl Chrom
+Ns 810.000000
+Ka 0.900000 0.900000 0.900000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/Reflektor2.jpg
+
+newmtl Glas
+Ns 902.500000
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.200000
+illum 6
+
+newmtl Glas.001
+Ns 902.500000
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.990000 0.990000 0.990000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.100000
+illum 6
+
+newmtl Material
+Ns 250.000000
+Ka 0.700000 0.700000 0.700000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../../../Github-Update/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+
+newmtl Rippen
+Ns 39.999996
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Rippen_bump.jpg
+
+newmtl Strahlertechnik
+Ns 39.999996
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../../../Github-Update/Lampen/textures/SILL_Strahlertechnik_bump.jpg
+
+newmtl Tiefschwarz
+Ns 39.999996
+Ka 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
