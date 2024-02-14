@@ -25,6 +25,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Kleine_Glocke_3500 |![Image](../../Thumbnails/Masten/Kleine_Glocke_3500.jpg)| 
 | Kleine_Glocke_4000 |![Image](../../Thumbnails/Masten/Kleine_Glocke_4000.jpg)| 
 | Otto_XXV_4000 |![Image](../../Thumbnails/Masten/Otto_XXV_4000.jpg)| 
+| Park_Crown_5000 |![Image](../../Thumbnails/Masten/Park_Crown_5000.jpg)| 
 | Semaphor_4500 |![Image](../../Thumbnails/Masten/Semaphor_4500.jpg)| 
 | Stahl_10000 |![Image](../../Thumbnails/Masten/Stahl_10000.jpg)| 
 | Stahl_11000 |![Image](../../Thumbnails/Masten/Stahl_11000.jpg)| 
