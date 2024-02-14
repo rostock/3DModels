@@ -1,0 +1,32 @@
+# Blender 4.0.2 MTL File: 'SL_11_Mini.blend'
+# www.blender.org
+
+newmtl Glas
+Ns 810.000000
+Ka 0.990000 0.990000 0.990000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.100000
+d 0.100000
+illum 6
+
+newmtl SL_11_midi
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/Streetlight_11_Midi_LED.jpg
+
+newmtl Si05_Lack_Siteco.001
+Ns 2.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.729412 0.729412 0.729412
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/Plastik_schwarz_1k.jpg
