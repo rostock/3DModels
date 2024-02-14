@@ -34,6 +34,7 @@ Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **
 | Stahl_25000 |![Image](../../Thumbnails/Masten/Stahl_25000.jpg)| 
 | Stahl_3000 |![Image](../../Thumbnails/Masten/Stahl_3000.jpg)| 
 | Stahl_3200 |![Image](../../Thumbnails/Masten/Stahl_3200.jpg)| 
+| Stahl_3400 |![Image](../../Thumbnails/Masten/Stahl_3400.jpg)| 
 | Stahl_3500 |![Image](../../Thumbnails/Masten/Stahl_3500.jpg)| 
 | Stahl_4000 |![Image](../../Thumbnails/Masten/Stahl_4000.jpg)| 
 | Stahl_4300 |![Image](../../Thumbnails/Masten/Stahl_4300.jpg)| 
