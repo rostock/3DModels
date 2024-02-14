@@ -1,0 +1,42 @@
+# Blender 4.0.2 MTL File: 'Sonderanfertigung.blend'
+# www.blender.org
+
+newmtl Glas.003
+Ns 810.000000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.800000
+illum 6
+
+newmtl Metall.002
+Ns 250.000000
+Ka 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9007_Graualuminium.jpg
+
+newmtl Sonderanfertigung.001
+Ns 250.000000
+Ka 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/Sonderanfertigung.jpg
+
+newmtl Sonderanfertigung2.001
+Ns 250.000000
+Ka 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/Sonderanfertigung2.jpg
