@@ -1,0 +1,32 @@
+# Blender 4.0.2 MTL File: 'Streetlight_10_Mini.blend'
+# www.blender.org
+
+newmtl Glas.002
+Ns 902.500000
+Ka 0.900000 0.900000 0.900000
+Kd 0.800000 0.800000 0.800000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.200000
+illum 6
+
+newmtl Material.002
+Ns 250.000000
+Ka 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9007_Graualuminium.jpg
+
+newmtl Material.003
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../../../Beleuchtung/Lampen/textures/Streetlight_11_Midi_LED.jpg
