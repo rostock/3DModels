@@ -1,12 +1,13 @@
-# Blender 4.0.2 MTL File: 'Histo_x550_y-340_ae_h0.blend'
-# www.blender.org
+# Blender MTL File: 'Histo_x550_y-340_ae_h0.blend'
+# Material Count: 1
 
 newmtl Schwarz.001
-Ns 360.000000
+Ns 359.999993
 Ka 0.800000 0.800000 0.800000
+Kd 0.800000 0.800000 0.800000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Ausleger/textures/RAL_9011_Graphitschwarz.jpg
+map_Kd /textures/RAL_9011_Graphitschwarz.jpg
