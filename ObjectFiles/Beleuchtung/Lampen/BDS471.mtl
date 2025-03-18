@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7016_Anthrazitgrau.jpg
+map_Kd /textures/RAL_7016_Anthrazitgrau.jpg
 
 newmtl CitySpirit.001
 Ns 562.500000
@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/CitySpirit.jpg
+map_Kd /textures/CitySpirit.jpg
 
 newmtl Glas.001
 Ns 810.000000
@@ -39,4 +39,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd /textures/weiss.jpg

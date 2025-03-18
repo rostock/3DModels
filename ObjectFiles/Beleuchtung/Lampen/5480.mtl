@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7016_Anthrazitgrau.jpg
+map_Kd /textures/RAL_7016_Anthrazitgrau.jpg
 
 newmtl Glas.002
 Ns 810.000000
@@ -29,7 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Vulkan_3xLED.jpg
+map_Kd /textures/Vulkan_3xLED.jpg
 
 newmtl Lichtgrau
 Ns 250.000000
@@ -39,7 +39,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7035_Lichtgrau.jpg
+map_Kd /textures/RAL_7035_Lichtgrau.jpg
 
 newmtl weiss
 Ns 250.000000
@@ -49,7 +49,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd /textures/weiss.jpg
 
 newmtl weiss.001
 Ns 490.000000
@@ -59,4 +59,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd /textures/weiss.jpg

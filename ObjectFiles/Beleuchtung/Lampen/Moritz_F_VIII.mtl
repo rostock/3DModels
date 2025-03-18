@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9011_Graphitschwarz.jpg
+map_Kd /textures/RAL_9011_Graphitschwarz.jpg
 
 newmtl LED
 Ns 250.000000
@@ -29,7 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/LED.jpg
+map_Kd /textures/LED.jpg
 
 newmtl Metall
 Ns 810.000000
@@ -39,7 +39,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/hellgrau.jpg
+map_Kd /textures/hellgrau.jpg
 
 newmtl Tiefschwarz
 Ns 250.000000
@@ -49,4 +49,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+map_Kd /textures/RAL_9005_Tiefschwarz.jpg

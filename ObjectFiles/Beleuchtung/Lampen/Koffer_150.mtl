@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Koffer_150.jpg
+map_Kd /textures/Koffer_150.jpg
 
 newmtl Weissaluminium
 Ns 250.000000
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9006_Weissaluminium.jpg
+map_Kd /textures/RAL_9006_Weissaluminium.jpg

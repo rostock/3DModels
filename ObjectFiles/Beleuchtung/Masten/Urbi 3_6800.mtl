@@ -1,0 +1,12 @@
+# Blender 4.0.2 MTL File: 'Urbi 3_6800.blend'
+# www.blender.org
+
+newmtl RAL_9005_Tiefschwarz
+Ns 360.000000
+Ka 0.500000 0.500000 0.500000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd /textures/RAL_9005_Tiefschwarz.jpg

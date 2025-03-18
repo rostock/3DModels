@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7035_Lichtgrau.jpg
+map_Kd /textures/RAL_7035_Lichtgrau.jpg
 
 newmtl SL_100
 Ns 250.000000
@@ -29,7 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/SL_100.jpg
+map_Kd /textures/SL_100.jpg
 
 newmtl Steingrau
 Ns 250.000000
@@ -39,4 +39,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7030_Steinlgrau.jpg
+map_Kd /textures/RAL_7030_Steinlgrau.jpg

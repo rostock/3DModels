@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.200000
 d 0.700000
 illum 6
-map_Kd ../../../Beleuchtung/Lampen/textures/riffled_glass.jpg
+map_Kd /textures/riffled_glass.jpg
 
 newmtl Metall_Rost
 Ns 39.999996
@@ -29,7 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/rusty_dirty_metal_texture-seamless.jpg
+map_Kd /textures/rusty_dirty_metal_texture-seamless.jpg
 
 newmtl weiss
 Ns 250.000000
@@ -39,4 +39,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd /textures/weiss.jpg

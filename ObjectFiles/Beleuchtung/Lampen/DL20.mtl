@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Metal032_1K_Color.jpg
+map_Kd /textures/Metal032_1K_Color.jpg
 
 newmtl LED-Ring
 Ns 980.100037
@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg
+map_Kd /textures/Siteco_DL_20.jpg
 
 newmtl Lampenring
 Ns 90.000000
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Siteco_DL_20.jpg
+map_Kd /textures/Siteco_DL_20.jpg

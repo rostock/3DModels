@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_6005_Moosgruen.jpg
+map_Kd /textures/RAL_6005_Moosgruen.jpg
 
 newmtl weiss.001
 Ns 250.000000
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/weiss.jpg
+map_Kd /textures/weiss.jpg

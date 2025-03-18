@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/DL_50_Midi.jpg
+map_Kd /textures/DL_50_Midi.jpg
 
 newmtl Plastik_grau.002
 Ns 2.000000
@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/Plastik_grau_1k.jpg
+map_Kd /textures/Plastik_grau_1k.jpg
 
 newmtl lichtgrau
 Ns 64.000023
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd ../../../Beleuchtung/Lampen/textures/Grau-Körnung.jpg
+map_Kd /textures/Grau-Körnung.jpg

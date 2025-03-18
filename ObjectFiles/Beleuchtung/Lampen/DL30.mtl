@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/DL_30.jpg
+map_Kd /textures/DL_30.jpg
 
 newmtl Die-cast_aluminum
 Ns 490.000000
@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Grau-Körnung.jpg
+map_Kd /textures/Grau-Körnung.jpg
 
 newmtl Plastik_grau
 Ns 250.000000
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Plastik_schwarz_1k.jpg
+map_Kd /textures/Plastik_schwarz_1k.jpg

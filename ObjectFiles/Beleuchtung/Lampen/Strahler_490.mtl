@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/Reflektor2.jpg
+map_Kd /textures/Reflektor2.jpg
 
 newmtl Glas
 Ns 902.500000
@@ -39,7 +39,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Rippen_bump.jpg
+map_Kd /textures/SILL_Rippen_bump.jpg
 
 newmtl Strahlertechnik
 Ns 360.000000
@@ -49,7 +49,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/SILL_Strahlertechnik_bump.jpg
+map_Kd /textures/SILL_Strahlertechnik_bump.jpg
 
 newmtl Tiefschwarz
 Ns 360.000000
@@ -59,7 +59,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9005_Tiefschwarz.jpg
+map_Kd /textures/RAL_9005_Tiefschwarz.jpg
 
 newmtl anthrazitgrau
 Ns 490.000000
@@ -69,4 +69,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_7016_Anthrazitgrau.jpg
+map_Kd /textures/RAL_7016_Anthrazitgrau.jpg

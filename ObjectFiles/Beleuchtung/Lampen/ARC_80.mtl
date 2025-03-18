@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/ARC_80.jpg
+map_Kd /textures/ARC_80.jpg
 
 newmtl Material
 Ns 810.000000
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd ../../../Beleuchtung/Lampen/textures/RAL_9007_Graualuminium.jpg
+map_Kd /textures/RAL_9007_Graualuminium.jpg
