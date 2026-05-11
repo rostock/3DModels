@@ -1,0 +1,1284 @@
+﻿{
+   "title" : "Rostock Stadtmoebel Catalog",
+   "copyright" : "<a href=\"https://github.com/rostock/3DModels#CC0-1.0-1-ov-file\" target=\"_blank\">https://github.com/rostock/3DModels</a>",
+   "items" : [
+      {
+         "title" : "Ampeln",
+         "icon" : "./icon.png",
+         "predefinedObjects" : [
+            {
+               "title" : {
+                  "de" : "Ampel_Abbieger_links_Mast.glb",
+                  "en" : "Ampel_Abbieger_links_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Ampel_Abbieger_links_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Ampel_Abbieger_links_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Ampel_Abbieger_links_geradeaus_Mast.glb",
+                  "en" : "Ampel_Abbieger_links_geradeaus_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Ampel_Abbieger_links_geradeaus_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Ampel_Abbieger_links_geradeaus_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Ampel_Abbieger_rechts_geradeaus_Mast.glb",
+                  "en" : "Ampel_Abbieger_rechts_geradeaus_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Ampel_Abbieger_rechts_geradeaus_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Ampel_Abbieger_rechts_geradeaus_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Ampel_Standard_Ausleger.glb",
+                  "en" : "Ampel_Standard_Ausleger.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Ampel_Standard_Ausleger.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Ampel_Standard_Ausleger.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Ampel_Standard_Mast.glb",
+                  "en" : "Ampel_Standard_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Ampel_Standard_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Ampel_Standard_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Ampel_Strassenbahn_1_Mast.glb",
+                  "en" : "Ampel_Strassenbahn_1_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Ampel_Strassenbahn_1_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Ampel_Strassenbahn_1_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Fahrradampel_rot_gelb_gruen_Mast.glb",
+                  "en" : "Fahrradampel_rot_gelb_gruen_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Fahrradampel_rot_gelb_gruen_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Fahrradampel_rot_gelb_gruen_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Fussgaenger_Fahrrad_Ampel_rot_gruen_Mast.glb",
+                  "en" : "Fussgaenger_Fahrrad_Ampel_rot_gruen_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Fussgaenger_Fahrrad_Ampel_rot_gruen_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Fussgaenger_Fahrrad_Ampel_rot_gruen_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Fussgaengerampel_rot_Mast.glb",
+                  "en" : "Fussgaengerampel_rot_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Fussgaengerampel_rot_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Fussgaengerampel_rot_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Fussgaengerampel_rot_gruen_Mast.glb",
+                  "en" : "Fussgaengerampel_rot_gruen_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Fussgaengerampel_rot_gruen_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Fussgaengerampel_rot_gruen_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Fussgaengerampel_rot_gruen_Signal_Mast.glb",
+                  "en" : "Fussgaengerampel_rot_gruen_Signal_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Fussgaengerampel_rot_gruen_Signal_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Fussgaengerampel_rot_gruen_Signal_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Fussgaengerampel_rot_rot_gruen_Mast.glb",
+                  "en" : "Fussgaengerampel_rot_rot_gruen_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Fussgaengerampel_rot_rot_gruen_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Fussgaengerampel_rot_rot_gruen_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Schutzblinker_Fussgaenger_Fahrrad_Mast.glb",
+                  "en" : "Schutzblinker_Fussgaenger_Fahrrad_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Schutzblinker_Fussgaenger_Fahrrad_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Schutzblinker_Fussgaenger_Fahrrad_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Schutzblinker_Fussgaenger_Mast.glb",
+                  "en" : "Schutzblinker_Fussgaenger_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Schutzblinker_Fussgaenger_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Schutzblinker_Fussgaenger_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Schutzblinker_Strassenbahn_Mast.glb",
+                  "en" : "Schutzblinker_Strassenbahn_Mast.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Schutzblinker_Strassenbahn_Mast.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Schutzblinker_Strassenbahn_Mast.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Stahl_3500.glb",
+                  "en" : "Stahl_3500.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Ampeln/Stahl_3500.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Ampeln/Stahl_3500.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            }
+         ]
+      },
+      {
+         "title" : "Beleuchtung",
+         "icon" : "./icon.png",
+         "predefinedObjects" : [
+            {
+               "title" : {
+                  "de" : "2020.glb",
+                  "en" : "2020.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/2020.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/2020.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "2310.glb",
+                  "en" : "2310.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/2310.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/2310.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "5450.glb",
+                  "en" : "5450.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/5450.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/5450.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "5460.glb",
+                  "en" : "5460.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/5460.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/5460.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "8904.glb",
+                  "en" : "8904.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/8904.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/8904.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "8949.glb",
+                  "en" : "8949.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/8949.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/8949.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "9081.glb",
+                  "en" : "9081.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/9081.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/9081.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "9351.glb",
+                  "en" : "9351.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/9351.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/9351.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "9821.glb",
+                  "en" : "9821.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/9821.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/9821.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Agora.glb",
+                  "en" : "Agora.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Agora.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Agora.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Albstadt.glb",
+                  "en" : "Albstadt.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Albstadt.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Albstadt.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Alte_Stadt.glb",
+                  "en" : "Alte_Stadt.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Alte_Stadt.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Alte_Stadt.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Basket.glb",
+                  "en" : "Basket.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Basket.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Basket.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "City-Light-Plus.glb",
+                  "en" : "City-Light-Plus.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/City-Light-Plus.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/City-Light-Plus.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "City-Light_Plus.glb",
+                  "en" : "City-Light_Plus.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/City-Light_Plus.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/City-Light_Plus.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Convia.glb",
+                  "en" : "Convia.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Convia.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Convia.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "DL20.glb",
+                  "en" : "DL20.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/DL20.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/DL20.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "DL30.glb",
+                  "en" : "DL30.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/DL30.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/DL30.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "DL_302.glb",
+                  "en" : "DL_302.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/DL_302.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/DL_302.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "DL_304.glb",
+                  "en" : "DL_304.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/DL_304.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/DL_304.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "DL_50_Midi.glb",
+                  "en" : "DL_50_Midi.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/DL_50_Midi.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/DL_50_Midi.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "DL_50_Mini.glb",
+                  "en" : "DL_50_Mini.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/DL_50_Mini.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/DL_50_Mini.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Discera_600.glb",
+                  "en" : "Discera_600.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Discera_600.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Discera_600.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Floodlight_FL_20.glb",
+                  "en" : "Floodlight_FL_20.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Floodlight_FL_20.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Floodlight_FL_20.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Generisch.glb",
+                  "en" : "Generisch.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Generisch.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Generisch.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Globus.glb",
+                  "en" : "Globus.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Globus.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Globus.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Grosse_Glocke.glb",
+                  "en" : "Grosse_Glocke.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Grosse_Glocke.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Grosse_Glocke.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Grosser_Klassiker.glb",
+                  "en" : "Grosser_Klassiker.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Grosser_Klassiker.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Grosser_Klassiker.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Histo.glb",
+                  "en" : "Histo.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Histo.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Histo.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Jana.glb",
+                  "en" : "Jana.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Jana.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Jana.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Kleine_Glocke.glb",
+                  "en" : "Kleine_Glocke.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Kleine_Glocke.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Kleine_Glocke.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Kleine_Runde.glb",
+                  "en" : "Kleine_Runde.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Kleine_Runde.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Kleine_Runde.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Koffer_150.glb",
+                  "en" : "Koffer_150.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Koffer_150.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Koffer_150.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Laterne.glb",
+                  "en" : "Laterne.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Laterne.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Laterne.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Lucas_VII.glb",
+                  "en" : "Lucas_VII.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Lucas_VII.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Lucas_VII.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Lumega_IQ_70.glb",
+                  "en" : "Lumega_IQ_70.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Lumega_IQ_70.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Lumega_IQ_70.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Moritz_F_VIII.glb",
+                  "en" : "Moritz_F_VIII.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Moritz_F_VIII.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Moritz_F_VIII.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Moritz_I.glb",
+                  "en" : "Moritz_I.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Moritz_I.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Moritz_I.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Moritz_II.glb",
+                  "en" : "Moritz_II.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Moritz_II.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Moritz_II.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Park_Crown.glb",
+                  "en" : "Park_Crown.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Park_Crown.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Park_Crown.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Pilz.glb",
+                  "en" : "Pilz.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Pilz.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Pilz.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "RSL.glb",
+                  "en" : "RSL.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/RSL.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/RSL.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "SGS_203.glb",
+                  "en" : "SGS_203.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/SGS_203.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/SGS_203.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "SL_100.glb",
+                  "en" : "SL_100.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/SL_100.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/SL_100.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "SR_100.glb",
+                  "en" : "SR_100.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/SR_100.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/SR_100.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "SR_50.glb",
+                  "en" : "SR_50.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/SR_50.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/SR_50.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Semaphor.glb",
+                  "en" : "Semaphor.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Semaphor.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Semaphor.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Sonderringleuchte_1400_mm.glb",
+                  "en" : "Sonderringleuchte_1400_mm.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Sonderringleuchte_1400_mm.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Sonderringleuchte_1400_mm.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Stradasole_400.glb",
+                  "en" : "Stradasole_400.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Stradasole_400.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Stradasole_400.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Stradasole_530.glb",
+                  "en" : "Stradasole_530.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Stradasole_530.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Stradasole_530.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Strassenleuchte.glb",
+                  "en" : "Strassenleuchte.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Strassenleuchte.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Strassenleuchte.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Streetlight_11_Micro.glb",
+                  "en" : "Streetlight_11_Micro.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Streetlight_11_Micro.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Streetlight_11_Micro.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Streetlight_11_Midi.glb",
+                  "en" : "Streetlight_11_Midi.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Streetlight_11_Midi.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Streetlight_11_Midi.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Streetlight_11_Mini.glb",
+                  "en" : "Streetlight_11_Mini.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Streetlight_11_Mini.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Streetlight_11_Mini.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Urbi_3.glb",
+                  "en" : "Urbi_3.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Urbi_3.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Urbi_3.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "VEB-Alt.glb",
+                  "en" : "VEB-Alt.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/VEB-Alt.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/VEB-Alt.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Viatana.glb",
+                  "en" : "Viatana.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Viatana.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Viatana.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Vista.glb",
+                  "en" : "Vista.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Lampen/Vista.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Beleuchtung/Lampen/Vista.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "textures",
+                  "en" : "textures"
+               },
+               "geometryType" : "Point",
+               "icon" : "",
+               "properties" : {
+                  "olcs_modelUrl" : "",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            }
+         ]
+      },
+      {
+         "title" : "Werbeanlagen",
+         "icon" : "./icon.png",
+         "predefinedObjects" : [
+            {
+               "title" : {
+                  "de" : "Allgemeinanschlag_Litfasssaeule.glb",
+                  "en" : "Allgemeinanschlag_Litfasssaeule.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Allgemeinanschlag_Litfasssaeule.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Allgemeinanschlag_Litfasssaeule.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Ganzstelle_Litfasssaeule.glb",
+                  "en" : "Ganzstelle_Litfasssaeule.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Ganzstelle_Litfasssaeule.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Ganzstelle_Litfasssaeule.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Grossflaeche_CityStar.glb",
+                  "en" : "Grossflaeche_CityStar.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Grossflaeche_CityStar.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Grossflaeche_CityStar.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Grossflaeche_Strasse.glb",
+                  "en" : "Grossflaeche_Strasse.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Grossflaeche_Strasse.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Grossflaeche_Strasse.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Grossvitrine_Megalight_Qualitaetsstandort.glb",
+                  "en" : "Grossvitrine_Megalight_Qualitaetsstandort.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Grossvitrine_Megalight_Qualitaetsstandort.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Grossvitrine_Megalight_Qualitaetsstandort.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Grossvitrine_Megalight_Strasse.glb",
+                  "en" : "Grossvitrine_Megalight_Strasse.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Grossvitrine_Megalight_Strasse.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Grossvitrine_Megalight_Strasse.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "JCDecaux_City_Light.glb",
+                  "en" : "JCDecaux_City_Light.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/JCDecaux_City_Light.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/JCDecaux_City_Light.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Werbetafel_eckig.glb",
+                  "en" : "Werbetafel_eckig.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Werbetafel_eckig.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Werbetafel_eckig.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            },
+            {
+               "title" : {
+                  "de" : "Werbetafel_rund.glb",
+                  "en" : "Werbetafel_rund.glb"
+               },
+               "geometryType" : "Point",
+               "icon" : "https://raw.githubusercontent.com/rostock/3DModels/main/Thumbnails/Werbeanlagen/Werbetafel_rund.jpg",
+               "properties" : {
+                  "olcs_modelUrl" : "https://raw.githubusercontent.com/rostock/3DModels/main/GLBFiles/Werbeanlagen/Werbetafel_rund.glb",
+                  "olcs_modelScaleX" : 1,
+                  "olcs_modelScaleY" : 1,
+                  "olcs_modelScaleZ" : 1,
+                  "olcs_allowPicking" : true
+               }
+            }
+         ]
+      }
+   ]
+}
