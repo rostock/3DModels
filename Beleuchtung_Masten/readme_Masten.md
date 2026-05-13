@@ -1,0 +1,59 @@
+# Masten
+Dieses Verzeichnis enthält Modelle von Masten. Die nachgestellte Zahl im Dateinamen entspricht dabei der Höhe des Mastes in Millimeter.
+
+Zugehörige Lampen und Ausleger können über den Dateinamen identifiziert werden.
+
+## Grundlage
+Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte. 
+## Modelle 
+ | Modellname | Preview | 
+ | --- | --- | 
+| Stahl_7500 |![Image](thumbs/Stahl_7500.jpg)| 
+| Histo_5300 |![Image](thumbs/Histo_5300.jpg)| 
+| Stahl_3500 |![Image](thumbs/Stahl_3500.jpg)| 
+| Urbi_3_10400 |![Image](thumbs/Urbi_3_10400.jpg)| 
+| Stahl_5500 |![Image](thumbs/Stahl_5500.jpg)| 
+| Stahl_8500 |![Image](thumbs/Stahl_8500.jpg)| 
+| Stahl_15000 |![Image](thumbs/Stahl_15000.jpg)| 
+| Stahl_4400 |![Image](thumbs/Stahl_4400.jpg)| 
+| Jana_4800 |![Image](thumbs/Jana_4800.jpg)| 
+| Beton_8000 |![Image](thumbs/Beton_8000.jpg)| 
+| Beton_6500 |![Image](thumbs/Beton_6500.jpg)| 
+| Stahl_4000 |![Image](thumbs/Stahl_4000.jpg)| 
+| Stahl_6800 |![Image](thumbs/Stahl_6800.jpg)| 
+| Stahl_10000 |![Image](thumbs/Stahl_10000.jpg)| 
+| Kleine_Glocke_3500 |![Image](thumbs/Kleine_Glocke_3500.jpg)| 
+| Beton_4000 |![Image](thumbs/Beton_4000.jpg)| 
+| Stahl_9000 |![Image](thumbs/Stahl_9000.jpg)| 
+| Stahl_4300 |![Image](thumbs/Stahl_4300.jpg)| 
+| Stahl_12000 |![Image](thumbs/Stahl_12000.jpg)| 
+| Basket_4000 |![Image](thumbs/Basket_4000.jpg)| 
+| Stahl_11000 |![Image](thumbs/Stahl_11000.jpg)| 
+| Urbi_3_8000 |![Image](thumbs/Urbi_3_8000.jpg)| 
+| Stahl_5000 |![Image](thumbs/Stahl_5000.jpg)| 
+| Semaphor_4500 |![Image](thumbs/Semaphor_4500.jpg)| 
+| Stahl_6000 |![Image](thumbs/Stahl_6000.jpg)| 
+| Albstadt_3500 |![Image](thumbs/Albstadt_3500.jpg)| 
+| Urbi_3_11200 |![Image](thumbs/Urbi_3_11200.jpg)| 
+| Urbi_3_6400 |![Image](thumbs/Urbi_3_6400.jpg)| 
+| Histo_4300 |![Image](thumbs/Histo_4300.jpg)| 
+| Stahl_3000 |![Image](thumbs/Stahl_3000.jpg)| 
+| Beton_5000 |![Image](thumbs/Beton_5000.jpg)| 
+| Stahl_25000 |![Image](thumbs/Stahl_25000.jpg)| 
+| Große_Glocke_6000 |![Image](thumbs/Große_Glocke_6000.jpg)| 
+| Stahl_7000 |![Image](thumbs/Stahl_7000.jpg)| 
+| Stahl_6500 |![Image](thumbs/Stahl_6500.jpg)| 
+| Beton_6300 |![Image](thumbs/Beton_6300.jpg)| 
+| Stahl_3200 |![Image](thumbs/Stahl_3200.jpg)| 
+| Urbi_3_11200_copy |![Image](thumbs/Urbi_3_11200_copy.jpg)| 
+| Stahl_14000 |![Image](thumbs/Stahl_14000.jpg)| 
+| Histo_4500 |![Image](thumbs/Histo_4500.jpg)| 
+| Urbi_3_6800 |![Image](thumbs/Urbi_3_6800.jpg)| 
+| Stahl_8000 |![Image](thumbs/Stahl_8000.jpg)| 
+| Kleine_Glocke_4000 |![Image](thumbs/Kleine_Glocke_4000.jpg)| 
+| Beton_6000 |![Image](thumbs/Beton_6000.jpg)| 
+| Kleine_Glocke_3000 |![Image](thumbs/Kleine_Glocke_3000.jpg)| 
+| grau_4800 |![Image](thumbs/grau_4800.jpg)| 
+| Stahl_4500 |![Image](thumbs/Stahl_4500.jpg)| 
+| Stahl_5300 |![Image](thumbs/Stahl_5300.jpg)| 
+| Stahl_7300 |![Image](thumbs/Stahl_7300.jpg)| 
