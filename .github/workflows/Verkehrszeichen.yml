@@ -10,24 +10,48 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      # Install Blender
+      # Install Blender 4.2 LTS from blender.org (skipped if already present, e.g. in a warm act image)
       - name: Install Blender
-        run: sudo snap install blender --classic
-      # install gitpython
-      - name: install gitpython
-        run: pip install gitpython
+        run: |
+          if command -v blender >/dev/null 2>&1; then
+            echo "Blender already installed: $(blender --version | head -1)"
+            exit 0
+          fi
+          sudo -E apt-get update -qq
+          sudo -E apt-get install -y -qq \
+            libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libxrender1 \
+            libgl1 libxrandr2 libxcursor1 libxinerama1 libsm6
+          BLENDER_VERSION=4.2.9
+          curl -fsSL "https://download.blender.org/release/Blender4.2/blender-${BLENDER_VERSION}-linux-x64.tar.xz" -o /tmp/blender.tar.xz
+          sudo mkdir -p /opt/blender
+          sudo tar -xf /tmp/blender.tar.xz -C /opt/blender --strip-components=1
+          sudo ln -sf /opt/blender/blender /usr/local/bin/blender
+          blender --version
+      # install uv (used by `uv run --with` for plain-python scripts)
+      - name: install uv
+        uses: astral-sh/setup-uv@v6
+      # install gitpython into Blender's bundled Python (for bpy scripts that import git)
+      - name: install gitpython for Blender
+        run: |
+          BLENDER_PY=$(ls /opt/blender/4.2/python/bin/python3.*[0-9])
+          if "$BLENDER_PY" -c 'import git' 2>/dev/null; then
+            echo "gitpython already installed in Blender Python"
+            exit 0
+          fi
+          sudo "$BLENDER_PY" -m ensurepip --upgrade
+          sudo "$BLENDER_PY" -m pip install gitpython
       # Export .obj from .blend
       - name: Blend > OBJ
         run: blender --background --python utilities/scripts/exportOBJ_Verkehrszeichen.py
       # Create individual Sign .obj from blank type .obj
       - name: retextureBlanks
-        run: python utilities/scripts/retextureOBJ_Verkehrszeichen.py
+        run: uv run --with gitpython python utilities/scripts/retextureOBJ_Verkehrszeichen.py
       # render thumbnails
       - name: render thumbnails
-        run: blender --background --python utilities/scripts/renderThumbnail_Verkehrszeichen.py
+        run: blender --background --python utilities/scripts/renderThumbnail.py -- Verkehrszeichen
       # create Readme
       - name: create Readme
-        run: python utilities/scripts/createReadme_Verkehrszeichen.py
+        run: uv run --with gitpython --with pyyaml python utilities/scripts/createReadme.py Verkehrszeichen
       # commit changes
       - name: commit changes
         run: |
