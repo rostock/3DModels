@@ -1,6 +1,5 @@
 # importing os module  
 import os 
-import pathlib
 import shutil
 import git
 
@@ -8,7 +7,7 @@ runDir = git.Repo(".",search_parent_directories=True)
 runDir = runDir.git.rev_parse("--show-toplevel") 
 pathVerkehr = os.path.join(runDir, 'Verkehrszeichen/tmp')
 
-pathOBJ = os.path.join(runDir, 'ObjectFiles/Verkehrszeichen')
+pathOBJ = os.path.join(runDir, 'Verkehrszeichen/obj')
 os.makedirs(pathOBJ, exist_ok=True)
 
 texturesFolder = os.path.join(pathOBJ,'textures/')
@@ -40,7 +39,7 @@ for filename in os.listdir(pathVerkehr):
                         shutil.copy2(srcJPG, os.path.join(typeFolder,texturefile))
             
             #replace mtl reference in .obj
-            pathOBJ = os.path.join(runDir, 'ObjectFiles/Verkehrszeichen')
+            pathOBJ = os.path.join(runDir, 'Verkehrszeichen/obj')
             oldText = filename.replace('obj','mtl')
             print("MTL reference to replace: "+ oldText)
             for obj in os.listdir(pathOBJ):
@@ -65,7 +64,7 @@ for filename in os.listdir(pathVerkehr):
 
                         
 # replace texture reference in .mtl                     
-pathOBJ = os.path.join(runDir, 'ObjectFiles/Verkehrszeichen')
+pathOBJ = os.path.join(runDir, 'Verkehrszeichen/obj')
 oldText = "rohling.jpg"
 for filename in os.listdir(pathOBJ):
       if filename.endswith('.mtl'):
@@ -77,7 +76,6 @@ for filename in os.listdir(pathOBJ):
             #replace all occurrences of the required string
             data = data.replace(oldText, newText)
             data = data.replace('..\\\\',' ')
-            data = data.replace('../','../Verkehrszeichen/')
             #close the input file
             fin.close()
             #open the input file in write mode
