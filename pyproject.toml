@@ -1,0 +1,10 @@
+[project]
+name = "3dmodels"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gitpython>=3.1",
+    "pyyaml>=6.0",
+]
