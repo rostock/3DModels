@@ -1,2 +1,7 @@
 tmp/
 *.blend1
+# act (local CI test runner)
+.env
+.actrc
+.secrets
+utilities/act/blender-*-linux-x64.tar.xz
