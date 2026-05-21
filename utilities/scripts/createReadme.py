@@ -1,10 +1,10 @@
-"""Generate per-category readmes and the repo-root readme from categories.yml.
+"""Generate per-category READMEs and the repo-root README from category.yml files.
 
 Usage (anywhere inside the repo):
-    python createReadme.py Abfallbehaelter           # one category
+    python createReadme.py Abfallbehaelter            # one category
     python createReadme.py Ampeln Lampen Werbeanlagen # several categories
     python createReadme.py --all                      # every category
-    python createReadme.py --root                     # only the root readme
+    python createReadme.py --root                     # only the root README
     python createReadme.py --all --root               # both
 
 Categories can be passed either by short alias (e.g. "Ausleger") or by the
@@ -18,10 +18,9 @@ import os
 import sys
 from pathlib import Path
 
-import git
-import yaml
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from categories import Category, discover, repo_root, resolve  # noqa: E402
 
-CONFIG_PATH = Path(__file__).resolve().parent / "categories.yml"
 VIEWER_URL_TEMPLATE = (
     "https://3dviewer.net/embed.html#model="
     "https://github.com/rostock/3DModels/blob/main/{directory}/glb/{model}.glb"
@@ -32,37 +31,11 @@ VIEWER_URL_TEMPLATE = (
 )
 
 
-def load_categories() -> dict:
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
-
-
-def repo_root() -> Path:
-    return Path(
-        git.Repo(".", search_parent_directories=True).git.rev_parse("--show-toplevel")
-    )
-
-
-def resolve_category(name: str, categories: dict) -> str:
-    """Accept either the alias or the on-disk directory name; return the alias."""
-    if name in categories:
-        return name
-    for alias, cfg in categories.items():
-        if cfg["directory"] == name:
-            return alias
-    raise SystemExit(f"Unknown category: {name!r}. Known: {sorted(categories)}")
-
-
-def build_category_readme(alias: str, cfg: dict, root: Path) -> None:
-    directory = cfg["directory"]
-    display_name = cfg["display_name"]
-    has_glb = cfg.get("has_glb", False)
-    intro = cfg.get("intro", "").rstrip()
-
-    thumbs_dir = root / directory / "thumbs"
+def build_category_readme(cat: Category, root: Path) -> None:
+    thumbs_dir = root / cat.directory / "thumbs"
     thumbs = sorted(os.listdir(thumbs_dir))
 
-    if has_glb:
+    if cat.has_glb:
         table = "## Modelle \n | Modellname | Preview | 3D-Modell | \n | --- | --- | --- |\n"
     else:
         table = "## Modelle \n | Modellname | Preview | \n | --- | --- | \n"
@@ -70,29 +43,30 @@ def build_category_readme(alias: str, cfg: dict, root: Path) -> None:
     for thumb in thumbs:
         model = thumb.replace(".jpg", "")
         image = os.path.join("thumbs", thumb)
-        if has_glb:
-            viewer = VIEWER_URL_TEMPLATE.format(directory=directory, model=model)
-            table += f"| {model} |![Image]({image})| [Link zu Online 3D Viewer]({viewer}) |\n"
+        if cat.has_glb:
+            viewer = VIEWER_URL_TEMPLATE.format(directory=cat.directory, model=model)
+            table += (
+                f"| {model} |![Image]({image})|"
+                f" [Link zu Online 3D Viewer]({viewer}) |\n"
+            )
         else:
             table += f"| {model} |![Image]({image})| \n"
 
-    text = f"# {display_name}\n{intro}\n\n{table}"
+    text = f"# {cat.display_name}\n{cat.intro}\n\n{table}"
     text = text.replace("\\", "/")
 
-    out = root / directory / "README.md"
+    out = root / cat.directory / "README.md"
     with open(out, "w", encoding="utf-8") as f:
         f.write(text)
 
 
-def build_root_readme(categories: dict, root: Path) -> None:
-    beleuchtung = []
-    others = []
-    for cfg in categories.values():
-        directory = cfg["directory"]
-        display_name = cfg["display_name"]
-        link = f"{directory}/README.md"
-        entry = (display_name, link)
-        if directory.startswith("Beleuchtung_"):
+def build_root_readme(categories: dict[str, Category], root: Path) -> None:
+    beleuchtung: list[tuple[str, str]] = []
+    others: list[tuple[str, str]] = []
+    for cat in categories.values():
+        link = f"{cat.directory}/README.md"
+        entry = (cat.display_name, link)
+        if cat.directory.startswith("Beleuchtung_"):
             beleuchtung.append(entry)
         else:
             others.append(entry)
@@ -111,7 +85,7 @@ def build_root_readme(categories: dict, root: Path) -> None:
         f.write(text)
 
 
-def parse_args(argv: list[str], categories: dict) -> argparse.Namespace:
+def parse_args(argv: list[str], categories: dict[str, Category]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -119,7 +93,7 @@ def parse_args(argv: list[str], categories: dict) -> argparse.Namespace:
         "categories", nargs="*", help="Category aliases or directory names"
     )
     parser.add_argument(
-        "--all", action="store_true", help="Process every category in categories.yml"
+        "--all", action="store_true", help="Process every discovered category"
     )
     parser.add_argument(
         "--root", action="store_true", help="(Re)generate the repo-root README.md"
@@ -134,24 +108,29 @@ def parse_args(argv: list[str], categories: dict) -> argparse.Namespace:
 
 
 def main() -> None:
-    categories = load_categories()
-    args = parse_args(sys.argv[1:], categories)
     root = repo_root()
+    categories = discover(root)
+    args = parse_args(sys.argv[1:], categories)
 
     if args.all:
-        selected = list(categories)
+        selected = list(categories.values())
     else:
         selected = []
-        seen = set()
+        seen: set[str] = set()
         for raw in args.categories:
-            alias = resolve_category(raw, categories)
-            if alias not in seen:
-                selected.append(alias)
-                seen.add(alias)
+            try:
+                cat = resolve(raw, categories)
+            except KeyError:
+                raise SystemExit(
+                    f"Unknown category: {raw!r}. Known: {sorted(categories)}"
+                )
+            if cat.alias not in seen:
+                selected.append(cat)
+                seen.add(cat.alias)
 
-    for alias in selected:
-        print(f"Building {alias}/README.md")
-        build_category_readme(alias, categories[alias], root)
+    for cat in selected:
+        print(f"Building {cat.directory}/README.md")
+        build_category_readme(cat, root)
 
     if args.root:
         print("Building root README.md")

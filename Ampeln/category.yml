@@ -1,0 +1,11 @@
+alias: Ampeln
+display_name: Ampeln
+pipeline: standard
+has_glb: true
+triangulate: true
+intro: |
+  ## Allgemein
+  Dieses Verzeichnis enthält Modelle von Ampeln.
+
+  ## Grundlage
+  Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte.

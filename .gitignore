@@ -1,5 +1,6 @@
 tmp/
 *.blend1
+__pycache__/
 # act (local CI test runner)
 .env
 .actrc

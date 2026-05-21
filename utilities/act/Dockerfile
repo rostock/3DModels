@@ -38,4 +38,4 @@ RUN mkdir -p /opt/blender \
 
 RUN BLENDER_PY=$(ls /opt/blender/${BLENDER_MAJOR}/python/bin/python3.*[0-9]) \
  && "$BLENDER_PY" -m ensurepip --upgrade \
- && "$BLENDER_PY" -m pip install gitpython
+ && "$BLENDER_PY" -m pip install gitpython pyyaml

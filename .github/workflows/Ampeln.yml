@@ -29,16 +29,16 @@ jobs:
       # install uv (used by `uv run --with` for plain-python scripts)
       - name: install uv
         uses: astral-sh/setup-uv@v6
-      # install gitpython into Blender's bundled Python (for bpy scripts that import git)
-      - name: install gitpython for Blender
+      # install Python deps into Blender's bundled Python (for bpy scripts that import git/yaml)
+      - name: install Python deps for Blender
         run: |
           BLENDER_PY=$(ls /opt/blender/4.2/python/bin/python3.*[0-9])
-          if "$BLENDER_PY" -c 'import git' 2>/dev/null; then
-            echo "gitpython already installed in Blender Python"
+          if "$BLENDER_PY" -c 'import git, yaml' 2>/dev/null; then
+            echo "Python deps already installed in Blender Python"
             exit 0
           fi
           sudo "$BLENDER_PY" -m ensurepip --upgrade
-          sudo "$BLENDER_PY" -m pip install gitpython
+          sudo "$BLENDER_PY" -m pip install gitpython pyyaml
       # export .obj
       - name: export .obj
         run: blender --background --python utilities/scripts/exportOBJ.py -- Ampeln

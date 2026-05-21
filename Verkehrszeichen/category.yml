@@ -1,0 +1,13 @@
+alias: Verkehrszeichen
+display_name: Verkehrszeichen
+pipeline: verkehrszeichen
+has_glb: false
+intro: |
+  Dieses Verzeichnis enthält Modelle von Verkehrszeichen.
+
+  Die Modelle entsprechen der Größe 2.
+  Es handelt sich jeweilig um einseitige Verkehrszeichen ohne Montierung und Halterungen.
+
+  ## Grundlage
+  Als Grundlage für die zur Verfügung gestellten Modelle dienen die Liste und die Abbildungen des Bundesamtes für Straßenwesen.
+  (https://www.bast.de/DE/Verkehrstechnik/Fachthemen/v1-verkehrszeichen/vz-start.html?nn=1817946)

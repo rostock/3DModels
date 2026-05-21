@@ -1,0 +1,12 @@
+alias: Wandhalterung
+display_name: Wandhalterung
+pipeline: standard
+has_glb: true
+triangulate: true
+intro: |
+  Dieses Verzeichnis enthält Modelle von Wandhalterungen. Die nachgestellten Parameter beschreiben Offsets der zugehörigen Lampe relativ zur Hauptachse des Mastes in Millimeter.
+
+  Zugehörige Lampen können über den Dateinamen identifiziert werden.
+
+  ## Grundlage
+  Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte.

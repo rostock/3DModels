@@ -5,10 +5,9 @@ Usage (inside Blender):
     blender --background --python utilities/scripts/exportOBJ.py -- --all
 
 Categories may be passed either as the alias (e.g. "Ausleger") or as the
-on-disk directory name (e.g. "Beleuchtung_Ausleger").
-
-Note: Verkehrszeichen has its own pipeline (exportOBJ_Verkehrszeichen.py +
-retextureOBJ_Verkehrszeichen.py) and is intentionally not handled here.
+on-disk directory name (e.g. "Beleuchtung_Ausleger"). Only categories with
+``pipeline: standard`` in their category.yml are handled here — the
+Verkehrszeichen pipeline runs through its own dedicated scripts.
 """
 import argparse
 import os
@@ -16,29 +15,19 @@ import shutil
 import sys
 
 import bpy
-import git
 
-# alias -> {directory, triangulate}
-# triangulate mirrors the historical per-category behaviour of the old
-# exportOBJ_<Cat>.py scripts.
-CATEGORIES = {
-    "Abfallbehaelter": {"directory": "Abfallbehaelter", "triangulate": False},
-    "Ampeln": {"directory": "Ampeln", "triangulate": True},
-    "Ausleger": {"directory": "Beleuchtung_Ausleger", "triangulate": False},
-    "Lampen": {"directory": "Beleuchtung_Lampen", "triangulate": False},
-    "Masten": {"directory": "Beleuchtung_Masten", "triangulate": False},
-    "Wandhalterung": {"directory": "Beleuchtung_Wandhalterung", "triangulate": True},
-    "Werbeanlagen": {"directory": "Werbeanlagen", "triangulate": True},
-}
-
-# Accept either the alias or the full directory name as input.
-ALIASES = {
-    **{alias: alias for alias in CATEGORIES},
-    **{cfg["directory"]: alias for alias, cfg in CATEGORIES.items()},
-}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from categories import (  # noqa: E402
+    Category,
+    PIPELINE_STANDARD,
+    discover,
+    filter_pipeline,
+    repo_root,
+    resolve,
+)
 
 
-def parse_args(argv):
+def parse_args(argv, categories):
     parser = argparse.ArgumentParser(
         prog="exportOBJ.py",
         description="Export .obj for one or more model categories.",
@@ -46,7 +35,7 @@ def parse_args(argv):
     parser.add_argument(
         "categories",
         nargs="*",
-        help="One or more categories. Aliases: " + ", ".join(sorted(CATEGORIES)),
+        help="One or more categories. Aliases: " + ", ".join(sorted(categories)),
     )
     parser.add_argument("--all", action="store_true", help="Process every category.")
     args = parser.parse_args(argv)
@@ -57,27 +46,26 @@ def parse_args(argv):
         parser.error("provide at least one category, or pass --all")
 
     if args.all:
-        return list(CATEGORIES.keys())
+        return list(categories.values())
 
-    resolved = []
+    resolved: list[Category] = []
+    seen: set[str] = set()
     for name in args.categories:
-        if name not in ALIASES:
+        try:
+            cat = resolve(name, categories)
+        except KeyError:
             parser.error(
-                f"unknown category: {name!r}. Known: {', '.join(sorted(ALIASES))}"
+                f"unknown category: {name!r}. Known: {', '.join(sorted(categories))}"
             )
-        alias = ALIASES[name]
-        if alias not in resolved:
-            resolved.append(alias)
+        if cat.alias not in seen:
+            resolved.append(cat)
+            seen.add(cat.alias)
     return resolved
 
 
-def export_category(repo_root, alias):
-    cfg = CATEGORIES[alias]
-    directory = cfg["directory"]
-    triangulate = cfg["triangulate"]
-
-    path_blend = os.path.join(repo_root, directory, "blender")
-    path_obj = os.path.join(repo_root, directory, "obj")
+def export_category(repo, cat: Category) -> None:
+    path_blend = os.path.join(repo, cat.directory, "blender")
+    path_obj = os.path.join(repo, cat.directory, "obj")
     os.makedirs(path_obj, exist_ok=True)
 
     for blendfile in os.listdir(path_blend):
@@ -89,11 +77,11 @@ def export_category(repo_root, alias):
             forward_axis="NEGATIVE_Y",
             up_axis="Z",
             export_materials=True,
-            export_triangulated_mesh=triangulate,
+            export_triangulated_mesh=cat.triangulate,
             path_mode="RELATIVE",
         )
 
-    texture_folder = os.path.join(repo_root, directory, "textures")
+    texture_folder = os.path.join(repo, cat.directory, "textures")
     if os.path.isdir(texture_folder):
         dest = os.path.join(path_obj, "textures/")
         os.makedirs(dest, exist_ok=True)
@@ -116,20 +104,18 @@ def export_category(repo_root, alias):
 
 
 def main():
-    # Blender forwards args after `--` to the script via sys.argv.
     if "--" in sys.argv:
         argv = sys.argv[sys.argv.index("--") + 1:]
     else:
         argv = sys.argv[1:]
 
-    selected = parse_args(argv)
-    repo_root = git.Repo(".", search_parent_directories=True).git.rev_parse(
-        "--show-toplevel"
-    )
+    repo = repo_root()
+    standard = filter_pipeline(discover(repo), PIPELINE_STANDARD)
+    selected = parse_args(argv, standard)
 
-    for alias in selected:
-        print(f"[exportOBJ] {alias}")
-        export_category(repo_root, alias)
+    for cat in selected:
+        print(f"[exportOBJ] {cat.alias}")
+        export_category(str(repo), cat)
 
 
 if __name__ == "__main__":
