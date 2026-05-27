@@ -1,7 +1,6 @@
 alias: Masten
 display_name: Masten
 pipeline: standard
-has_glb: true
 triangulate: false
 intro: |
   Dieses Verzeichnis enthält Modelle von Masten. Die nachgestellte Zahl im Dateinamen entspricht dabei der Höhe des Mastes in Millimeter.

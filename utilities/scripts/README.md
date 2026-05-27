@@ -45,11 +45,10 @@ Jeder Kategorie-Ordner im Repo-Root enthält eine `category.yml`, die alle skrip
 | `alias` | Kurzname für die CLI (`-- Ausleger` statt `-- Beleuchtung_Ausleger`) | Verzeichnisname |
 | `display_name` | H1-Titel im Kategorie-Readme und Linktext im Root-Readme | Alias |
 | `pipeline` | `standard` oder `verkehrszeichen` — schaltet die Sonderbehandlung um | `standard` |
-| `has_glb` | Falls `true`, bekommt das Kategorie-Readme eine zusätzliche „3D-Modell“-Spalte mit Viewer-Link | `false` |
 | `triangulate` | Falls `true`, trianguliert `exportOBJ.py` das Mesh vor dem Export | `false` |
 | `intro` | Markdown-Block zwischen H1 und der „## Modelle“-Tabelle | leer |
 
-**Pipeline.** `standard` deckt die typische Kategorie ab: `.blend` → `.obj`/`.glb` über die generischen Export-Skripte, Thumbnail aus der `.blend`. `verkehrszeichen` schaltet auf den Rohling-Workflow um: der OBJ-Export läuft über `exportOBJ_Verkehrszeichen.py`+`retextureOBJ_Verkehrszeichen.py`, GLB entfällt ganz, und `renderThumbnail.py` rendert nicht aus `.blend`, sondern importiert jede fertige `.obj` in `utilities/default.blend`.
+**Pipeline.** `standard` deckt die typische Kategorie ab: `.blend` → `.obj`/`.glb` über die generischen Export-Skripte, Thumbnail aus der `.blend`. `verkehrszeichen` schaltet auf den Rohling-Workflow um: der OBJ-Export läuft über `exportOBJ_Verkehrszeichen.py`+`retextureOBJ_Verkehrszeichen.py`; `exportGLB.py` und `renderThumbnail.py` arbeiten dann nicht auf den `.blend`-Quellen, sondern importieren jede fan-out `.obj` (`renderThumbnail.py` in `utilities/default.blend` zum Rendern, `exportGLB.py` in eine leere Szene zum `.glb`-Export).
 
 **Eine neue Kategorie anlegen.** Verzeichnis im Repo-Root anlegen, `category.yml` daneben legen, `blender/`+`textures/` befüllen — der nächste Workflow-Lauf nimmt sie automatisch mit. Skript-Code muss nicht angefasst werden.
 
@@ -131,7 +130,7 @@ blender --background --python utilities/scripts/renderThumbnail.py -- --all
 
 - Modellname (Dateiname ohne `.jpg`)
 - Eingebettetes Vorschaubild (`thumbs/<name>.jpg`)
-- **Falls** `has_glb: true` in `<Cat>/category.yml`: ein zusätzlicher Link zum [online 3D Viewer](https://3dviewer.net) mit der GLB-URL des Modells.
+- Link zum [online 3D Viewer](https://3dviewer.net) mit der GLB-URL des Modells.
 
 Vor der Tabelle stehen `# <display_name>` und der `intro:`-Block aus `<Cat>/category.yml`.
 

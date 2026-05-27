@@ -10,7 +10,6 @@ Schema (all fields except ``alias`` are optional):
     alias:         CLI short name. Defaults to the directory name.
     display_name:  H1 title in the per-category README. Defaults to alias.
     pipeline:      "standard" | "verkehrszeichen". Defaults to "standard".
-    has_glb:       Whether the category produces .glb files. Defaults to False.
     triangulate:   Whether exportOBJ should triangulate. Defaults to False.
     intro:         Markdown intro for the per-category README.
 """
@@ -37,7 +36,6 @@ class Category:
     directory: str
     display_name: str
     pipeline: str
-    has_glb: bool
     triangulate: bool
     intro: str
 
@@ -65,7 +63,6 @@ def _load(cfg_path: Path, directory: str) -> Category:
         directory=directory,
         display_name=data.get("display_name") or alias,
         pipeline=pipeline,
-        has_glb=bool(data.get("has_glb", False)),
         triangulate=bool(data.get("triangulate", False)),
         intro=(data.get("intro") or "").rstrip(),
     )

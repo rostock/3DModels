@@ -1,7 +1,6 @@
 alias: Verkehrszeichen
 display_name: Verkehrszeichen
 pipeline: verkehrszeichen
-has_glb: false
 intro: |
   Dieses Verzeichnis enthält Modelle von Verkehrszeichen.
 

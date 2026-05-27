@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
+  workflow_dispatch:
 
 jobs:
     createModels_default:
@@ -47,12 +48,14 @@ jobs:
         # Verkehrszeichen has its own OBJ pipeline (blank export + retexture)
         - name: export .obj Verkehrszeichen
           run: blender --background --python utilities/scripts/exportOBJ_Verkehrszeichen.py
+        # Create individual Sign .obj from blank type .obj
+        # (must run before `export .glb` because Verkehrszeichen's GLB step
+        # consumes the per-sign .obj fan-out written here)
+        - name: retextureBlanks
+          run: uv run --with gitpython python utilities/scripts/retextureOBJ_Verkehrszeichen.py
         # export .glb (all categories)
         - name: export .glb
           run: blender --background --python utilities/scripts/exportGLB.py -- --all
-        # Create individual Sign .obj from blank type .obj
-        - name: retextureBlanks
-          run: uv run --with gitpython python utilities/scripts/retextureOBJ_Verkehrszeichen.py
         # render Thumbnails (all categories)
         - name: render Thumbnails
           run: blender --background --python utilities/scripts/renderThumbnail.py -- --all

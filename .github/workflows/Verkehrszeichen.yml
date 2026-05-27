@@ -46,6 +46,9 @@ jobs:
       # Create individual Sign .obj from blank type .obj
       - name: retextureBlanks
         run: uv run --with gitpython python utilities/scripts/retextureOBJ_Verkehrszeichen.py
+      # Export .glb from the per-sign .obj fan-out (needs retextureBlanks to have run)
+      - name: export .glb
+        run: blender --background --python utilities/scripts/exportGLB.py -- Verkehrszeichen
       # render thumbnails
       - name: render thumbnails
         run: blender --background --python utilities/scripts/renderThumbnail.py -- Verkehrszeichen

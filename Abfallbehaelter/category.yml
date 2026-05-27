@@ -1,7 +1,6 @@
 alias: Abfallbehaelter
 display_name: Abfallbehaelter
 pipeline: standard
-has_glb: true
 triangulate: false
 intro: |
   Dieses Verzeichnis enthält Modelle von Abfallbehaeltern, welche in der Hansestadt Rostock im öffentlichen Raum aufgestellt sind.

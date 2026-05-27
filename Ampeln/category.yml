@@ -1,7 +1,6 @@
 alias: Ampeln
 display_name: Ampeln
 pipeline: standard
-has_glb: true
 triangulate: true
 intro: |
   ## Allgemein
