@@ -1,0 +1,17 @@
+alias: Lampen
+display_name: Lampen
+pipeline: standard
+has_glb: true
+triangulate: false
+intro: |
+  ## Allgemein
+  Dieses Verzeichnis enthält Modelle von Lampenkörpern. Diese entsprechen dem Bauteil ohne Mast oder Ausleger (sofern vorhanden).
+  Es werden drei grundsätzliche Typen von Leuchten umgesetzt:
+  - Aufsatzleuchte
+  - Ansatzleuchte
+  - Hängeleuchte
+
+  Zugehörige Masten und Ausleger können über den Dateinamen identifiziert werden.
+
+  ## Grundlage
+  Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte.

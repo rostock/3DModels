@@ -11,84 +11,54 @@ jobs:
         steps:
         - name: Checkout repository
           uses: actions/checkout@v3
-        # Install Blender
+        # Install Blender 4.2 LTS from blender.org (skipped if already present, e.g. in a warm act image)
         - name: Install Blender
-          run: sudo snap install blender --classic
-        # install gitpython
-        - name: install gitpython
-          run: pip install gitpython
-        # export .obj
-        - name: Abfallbehaelter
-          run: blender --background --python utilities/scripts/exportOBJ_Abfallbehaelter.py
-        - name: Ampeln
-          run: blender --background --python utilities/scripts/exportOBJ_Ampeln.py
-        - name: Ausleger  
-          run: blender --background --python utilities/scripts/exportOBJ_Ausleger.py
-        - name: Lampen
-          run: blender --background --python utilities/scripts/exportOBJ_Lampen.py
-        - name: Masten
-          run: blender --background --python utilities/scripts/exportOBJ_Masten.py
-        - name: Verkehrszeichen
+          run: |
+            if command -v blender >/dev/null 2>&1; then
+              echo "Blender already installed: $(blender --version | head -1)"
+              exit 0
+            fi
+            sudo -E apt-get update -qq
+            sudo -E apt-get install -y -qq \
+              libxxf86vm1 libxfixes3 libxi6 libxkbcommon0 libxrender1 \
+              libgl1 libxrandr2 libxcursor1 libxinerama1 libsm6
+            BLENDER_VERSION=4.2.9
+            curl -fsSL "https://download.blender.org/release/Blender4.2/blender-${BLENDER_VERSION}-linux-x64.tar.xz" -o /tmp/blender.tar.xz
+            sudo mkdir -p /opt/blender
+            sudo tar -xf /tmp/blender.tar.xz -C /opt/blender --strip-components=1
+            sudo ln -sf /opt/blender/blender /usr/local/bin/blender
+            blender --version
+        # install uv (used by `uv run --with` for plain-python scripts)
+        - name: install uv
+          uses: astral-sh/setup-uv@v6
+        # install Python deps into Blender's bundled Python (for bpy scripts that import git/yaml)
+        - name: install Python deps for Blender
+          run: |
+            BLENDER_PY=$(ls /opt/blender/4.2/python/bin/python3.*[0-9])
+            if "$BLENDER_PY" -c 'import git, yaml' 2>/dev/null; then
+              echo "Python deps already installed in Blender Python"
+              exit 0
+            fi
+            sudo "$BLENDER_PY" -m ensurepip --upgrade
+            sudo "$BLENDER_PY" -m pip install gitpython pyyaml
+        # export .obj (all categories except Verkehrszeichen)
+        - name: export .obj
+          run: blender --background --python utilities/scripts/exportOBJ.py -- --all
+        # Verkehrszeichen has its own OBJ pipeline (blank export + retexture)
+        - name: export .obj Verkehrszeichen
           run: blender --background --python utilities/scripts/exportOBJ_Verkehrszeichen.py
-        - name: Wandhalterungen
-          run: blender --background --python utilities/scripts/exportOBJ_Wandhalterung.py
-        - name: Werbeanlagen
-          run: blender --background --python utilities/scripts/exportOBJ_Werbeanlagen.py
-        # export .glb
-        - name: Abfallbehaelter
-          run: blender --background --python utilities/scripts/exportGLB_Abfallbehaelter.py
-        - name: Ampeln
-          run: blender --background --python utilities/scripts/exportGLB_Ampeln.py
-        - name: Ausleger  
-          run: blender --background --python utilities/scripts/exportGLB_Ausleger.py
-        - name: Lampen
-          run: blender --background --python utilities/scripts/exportGLB_Lampen.py
-        - name: Masten
-          run: blender --background --python utilities/scripts/exportGLB_Masten.py
-        - name: Wandhalterungen
-          run: blender --background --python utilities/scripts/exportGLB_Wandhalterung.py
-        - name: Werbeanlagen
-          run: blender --background --python utilities/scripts/exportGLB_Werbeanlagen.py
+        # export .glb (all categories)
+        - name: export .glb
+          run: blender --background --python utilities/scripts/exportGLB.py -- --all
         # Create individual Sign .obj from blank type .obj
         - name: retextureBlanks
-          run: python utilities/scripts/retextureOBJ_Verkehrszeichen.py
-        # render Thumbnails        
-        - name: Thumbnails Abfallbehaelter
-          run: blender --background --python utilities/scripts/renderThumbnail_Abfallbehaelter.py
-        - name: Thumbnails Ampeln
-          run: blender --background --python utilities/scripts/renderThumbnail_Ampeln.py
-        - name: Thumbnails Ausleger  
-          run: blender --background --python utilities/scripts/renderThumbnail_Ausleger.py
-        - name: Thumbnails Lampen
-          run: blender --background --python utilities/scripts/renderThumbnail_Lampen.py
-        - name: Thumbnails Masten
-          run: blender --background --python utilities/scripts/renderThumbnail_Masten.py
-        - name: Thumbnails Verkehrszeichen
-          run: blender --background --python utilities/scripts/renderThumbnail_Verkehrszeichen.py
-        - name: Thumbnails Wandhalterungen
-          run: blender --background --python utilities/scripts/renderThumbnail_Wandhalterung.py
-        - name: Thumbnails Werbeanlagen
-          run: blender --background --python utilities/scripts/renderThumbnail_Werbeanlagen.py
-        # create individual Readme files
-        - name: Readme Abfallbehaelter
-          run: python utilities/scripts/createReadme_Abfallbehaelter.py
-        - name: Readme Ampeln
-          run: python utilities/scripts/createReadme_Ampeln.py
-        - name: Readme Ausleger  
-          run: python utilities/scripts/createReadme_Ausleger.py
-        - name: Readme Lampen
-          run: python utilities/scripts/createReadme_Lampen.py
-        - name: Readme Masten
-          run: python utilities/scripts/createReadme_Masten.py
-        - name: Readme Verkehrszeichen
-          run: python utilities/scripts/createReadme_Verkehrszeichen.py
-        - name: Readme Wandhalterungen
-          run: python utilities/scripts/createReadme_Wandhalterung.py
-        - name: Readme Werbeanlagen
-          run: python utilities/scripts/createReadme_Werbeanlagen.py
-        # create main Readme file
-        - name: create main Readme
-          run: python utilities/scripts/createReadme.py
+          run: uv run --with gitpython python utilities/scripts/retextureOBJ_Verkehrszeichen.py
+        # render Thumbnails (all categories)
+        - name: render Thumbnails
+          run: blender --background --python utilities/scripts/renderThumbnail.py -- --all
+        # create individual + main Readme files
+        - name: create Readmes
+          run: uv run --with gitpython --with pyyaml python utilities/scripts/createReadme.py --all --root
         # commit changes
         - name: commit changes
           run: |
@@ -107,7 +77,7 @@ jobs:
           uses: actions/checkout@v3
         # create zip
         - name: Create Zip
-          run: zip obj_files.zip -r ObjectFiles/
+          run: zip obj_files.zip -r */obj/
         # Create release
         - name: Create Release
           id: create_release

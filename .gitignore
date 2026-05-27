@@ -1,2 +1,8 @@
 tmp/
 *.blend1
+__pycache__/
+# act (local CI test runner)
+.env
+.actrc
+.secrets
+utilities/act/blender-*-linux-x64.tar.xz

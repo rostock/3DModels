@@ -1,0 +1,12 @@
+alias: Masten
+display_name: Masten
+pipeline: standard
+has_glb: true
+triangulate: false
+intro: |
+  Dieses Verzeichnis enthält Modelle von Masten. Die nachgestellte Zahl im Dateinamen entspricht dabei der Höhe des Mastes in Millimeter.
+
+  Zugehörige Lampen und Ausleger können über den Dateinamen identifiziert werden.
+
+  ## Grundlage
+  Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte.

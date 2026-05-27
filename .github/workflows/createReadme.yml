@@ -10,12 +10,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      # install gitpython
-      - name: install gitpython
-        run: pip install gitpython
+      # install uv (used by `uv run --with` to run createReadme.py)
+      - name: install uv
+        uses: astral-sh/setup-uv@v6
       # create Readme
       - name: create Readme
-        run: python utilities/scripts/createReadme.py
+        run: uv run --with gitpython --with pyyaml python utilities/scripts/createReadme.py --root
       # commit changes
       - name: commit changes
         run: |

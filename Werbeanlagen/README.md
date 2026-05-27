@@ -1,0 +1,19 @@
+# Werbeanlagen
+## Allgemein
+Dieses Verzeichnis enthält Modelle von Werbetafeln und Litfaßsäulen.
+
+## Grundlage
+Als Grundlage für die zur Verfügung gestellten Modelle dienen **Fotos** und **Produktskizzen/-maße** der jeweiligen Realweltobjekte.
+
+## Modelle 
+ | Modellname | Preview | 3D-Modell | 
+ | --- | --- | --- |
+| Allgemeinanschlag_Litfasssaeule |![Image](thumbs/Allgemeinanschlag_Litfasssaeule.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Allgemeinanschlag_Litfasssaeule.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Ganzstelle_Litfasssaeule |![Image](thumbs/Ganzstelle_Litfasssaeule.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Ganzstelle_Litfasssaeule.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Grossflaeche_CityStar |![Image](thumbs/Grossflaeche_CityStar.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Grossflaeche_CityStar.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Grossflaeche_Strasse |![Image](thumbs/Grossflaeche_Strasse.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Grossflaeche_Strasse.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Grossvitrine_Megalight_Qualitaetsstandort |![Image](thumbs/Grossvitrine_Megalight_Qualitaetsstandort.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Grossvitrine_Megalight_Qualitaetsstandort.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Grossvitrine_Megalight_Strasse |![Image](thumbs/Grossvitrine_Megalight_Strasse.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Grossvitrine_Megalight_Strasse.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| JCDecaux_City_Light |![Image](thumbs/JCDecaux_City_Light.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/JCDecaux_City_Light.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Werbetafel_eckig |![Image](thumbs/Werbetafel_eckig.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Werbetafel_eckig.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
+| Werbetafel_rund |![Image](thumbs/Werbetafel_rund.jpg)| [Link zu Online 3D Viewer](https://3dviewer.net/embed.html#model=https://github.com/rostock/3DModels/blob/main/Werbeanlagen/glb/Werbetafel_rund.glb$camera=0,0,0$cameramode=perspective$envsettings=fishermans_bastion,on$backgroundcolor=200,200,200,255$defaultcolor=200,200,200$edgesettings=off,0,0,0,20) |
