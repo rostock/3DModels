@@ -1,7 +1,6 @@
 alias: Lampen
 display_name: Lampen
 pipeline: standard
-has_glb: true
 triangulate: false
 intro: |
   ## Allgemein

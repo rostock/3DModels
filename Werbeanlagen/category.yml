@@ -1,7 +1,6 @@
 alias: Werbeanlagen
 display_name: Werbeanlagen
 pipeline: standard
-has_glb: true
 triangulate: true
 intro: |
   ## Allgemein

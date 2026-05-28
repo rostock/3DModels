@@ -35,22 +35,16 @@ def build_category_readme(cat: Category, root: Path) -> None:
     thumbs_dir = root / cat.directory / "thumbs"
     thumbs = sorted(os.listdir(thumbs_dir))
 
-    if cat.has_glb:
-        table = "## Modelle \n | Modellname | Preview | 3D-Modell | \n | --- | --- | --- |\n"
-    else:
-        table = "## Modelle \n | Modellname | Preview | \n | --- | --- | \n"
+    table = "## Modelle \n | Modellname | Preview | 3D-Modell | \n | --- | --- | --- |\n"
 
     for thumb in thumbs:
         model = thumb.replace(".jpg", "")
         image = os.path.join("thumbs", thumb)
-        if cat.has_glb:
-            viewer = VIEWER_URL_TEMPLATE.format(directory=cat.directory, model=model)
-            table += (
-                f"| {model} |![Image]({image})|"
-                f" [Link zu Online 3D Viewer]({viewer}) |\n"
-            )
-        else:
-            table += f"| {model} |![Image]({image})| \n"
+        viewer = VIEWER_URL_TEMPLATE.format(directory=cat.directory, model=model)
+        table += (
+            f"| {model} |![Image]({image})|"
+            f" [Link zu Online 3D Viewer]({viewer}) |\n"
+        )
 
     text = f"# {cat.display_name}\n{cat.intro}\n\n{table}"
     text = text.replace("\\", "/")

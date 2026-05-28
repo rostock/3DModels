@@ -1,7 +1,6 @@
 alias: Ausleger
 display_name: Ausleger
 pipeline: standard
-has_glb: true
 triangulate: false
 intro: |
   Dieses Verzeichnis enthält Modelle von Ausleger. Die nachgestellten Parameter beschreiben Offsets der zugehörigen Lampe relativ zur Hauptachse des Mastes in Millimeter.
